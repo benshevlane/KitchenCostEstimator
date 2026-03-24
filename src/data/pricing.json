@@ -1,0 +1,2120 @@
+{
+  "costItems": [
+    {
+      "id": "P01",
+      "category": "Project Totals",
+      "subCategory": "Small (<8m\u00b2/90sqft)",
+      "description": "Budget renovation \u2013 flatpack, laminate, no layout change",
+      "unit": "project",
+      "uk": {
+        "low": 6200,
+        "mid": 9000,
+        "high": 13000
+      },
+      "us": {
+        "low": 12000,
+        "mid": 18000,
+        "high": 25000
+      },
+      "ca": {
+        "low": 13500,
+        "mid": 20000,
+        "high": 28000
+      },
+      "notes": "Budget flatpack units, laminate worktop, keep existing layout",
+      "sources": "Checkatrade 2025; Fixr 2025; HomeStars CA 2025"
+    },
+    {
+      "id": "P02",
+      "category": "Project Totals",
+      "subCategory": "Small (<8m\u00b2/90sqft)",
+      "description": "Mid-range renovation \u2013 rigid units, quartz, new appliances",
+      "unit": "project",
+      "uk": {
+        "low": 9000,
+        "mid": 14000,
+        "high": 20000
+      },
+      "us": {
+        "low": 18000,
+        "mid": 28000,
+        "high": 42000
+      },
+      "ca": {
+        "low": 20000,
+        "mid": 31000,
+        "high": 47000
+      },
+      "notes": "Branded rigid carcasses, quartz worktops, integrated appliance suite",
+      "sources": "Checkatrade 2025; HomeAdvisor 2025; MagicWindow CA 2025"
+    },
+    {
+      "id": "P03",
+      "category": "Project Totals",
+      "subCategory": "Medium (8\u201314m\u00b2/90\u2013150sqft)",
+      "description": "Budget renovation",
+      "unit": "project",
+      "uk": {
+        "low": 10000,
+        "mid": 14000,
+        "high": 20000
+      },
+      "us": {
+        "low": 20000,
+        "mid": 32000,
+        "high": 48000
+      },
+      "ca": {
+        "low": 22000,
+        "mid": 36000,
+        "high": 54000
+      },
+      "notes": "Standard family kitchen, budget spec",
+      "sources": "BestBuilders UK 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "P04",
+      "category": "Project Totals",
+      "subCategory": "Medium (8\u201314m\u00b2/90\u2013150sqft)",
+      "description": "Mid-range renovation \u2013 most common spec",
+      "unit": "project",
+      "uk": {
+        "low": 14000,
+        "mid": 20000,
+        "high": 30000
+      },
+      "us": {
+        "low": 30000,
+        "mid": 45000,
+        "high": 65000
+      },
+      "ca": {
+        "low": 34000,
+        "mid": 50000,
+        "high": 73000
+      },
+      "notes": "Houzz UK median \u00a317,500 (2024); Houzz US major reno median $55k",
+      "sources": "Houzz UK 2025; Houzz US 2024"
+    },
+    {
+      "id": "P05",
+      "category": "Project Totals",
+      "subCategory": "Medium (8\u201314m\u00b2/90\u2013150sqft)",
+      "description": "Premium renovation \u2013 bespoke units, stone",
+      "unit": "project",
+      "uk": {
+        "low": 25000,
+        "mid": 40000,
+        "high": 70000
+      },
+      "us": {
+        "low": 50000,
+        "mid": 85000,
+        "high": 150000
+      },
+      "ca": {
+        "low": 56000,
+        "mid": 95000,
+        "high": 168000
+      },
+      "notes": "Custom cabinetry, natural stone worktops, premium appliances",
+      "sources": "Checkatrade 2025; USA Cabinet Store 2025"
+    },
+    {
+      "id": "P06",
+      "category": "Project Totals",
+      "subCategory": "Large (14\u201320m\u00b2/150\u2013215sqft)",
+      "description": "Mid-range renovation",
+      "unit": "project",
+      "uk": {
+        "low": 20000,
+        "mid": 32000,
+        "high": 50000
+      },
+      "us": {
+        "low": 40000,
+        "mid": 65000,
+        "high": 100000
+      },
+      "ca": {
+        "low": 45000,
+        "mid": 73000,
+        "high": 112000
+      },
+      "notes": "Open-plan, island, good quality spec",
+      "sources": "BestBuilders UK 2025; Fixr 2025; LifetimeBuildings CA 2025"
+    },
+    {
+      "id": "P07",
+      "category": "Project Totals",
+      "subCategory": "Large (14\u201320m\u00b2/150\u2013215sqft)",
+      "description": "Premium renovation",
+      "unit": "project",
+      "uk": {
+        "low": 40000,
+        "mid": 65000,
+        "high": 120000
+      },
+      "us": {
+        "low": 75000,
+        "mid": 130000,
+        "high": 250000
+      },
+      "ca": {
+        "low": 84000,
+        "mid": 146000,
+        "high": 280000
+      },
+      "notes": "Custom cabinets, luxury stone, Miele-grade appliances",
+      "sources": "Gardiner of England 2025; USA Cabinet Store 2025"
+    },
+    {
+      "id": "U01",
+      "category": "Units & Cabinetry",
+      "subCategory": "Budget (flatpack)",
+      "description": "Base unit \u2013 supply only",
+      "unit": "per unit",
+      "uk": {
+        "low": 80,
+        "mid": 150,
+        "high": 250
+      },
+      "us": {
+        "low": 100,
+        "mid": 200,
+        "high": 320
+      },
+      "ca": {
+        "low": 110,
+        "mid": 220,
+        "high": 360
+      },
+      "notes": "IKEA/B&Q/Home Depot equivalent. 8\u201314 units typical medium kitchen",
+      "sources": "BookaBuilderUK 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "U02",
+      "category": "Units & Cabinetry",
+      "subCategory": "Budget (flatpack)",
+      "description": "Wall unit \u2013 supply only",
+      "unit": "per unit",
+      "uk": {
+        "low": 50,
+        "mid": 80,
+        "high": 150
+      },
+      "us": {
+        "low": 60,
+        "mid": 100,
+        "high": 180
+      },
+      "ca": {
+        "low": 70,
+        "mid": 110,
+        "high": 200
+      },
+      "notes": "Wall units ~20\u201330% less than base",
+      "sources": "BookaBuilderUK 2025"
+    },
+    {
+      "id": "U03",
+      "category": "Units & Cabinetry",
+      "subCategory": "Mid-range (rigid/branded)",
+      "description": "Base unit \u2013 supply only",
+      "unit": "per unit",
+      "uk": {
+        "low": 150,
+        "mid": 300,
+        "high": 500
+      },
+      "us": {
+        "low": 200,
+        "mid": 400,
+        "high": 650
+      },
+      "ca": {
+        "low": 220,
+        "mid": 440,
+        "high": 730
+      },
+      "notes": "Magnet/Wren/Howdens UK; Home Depot semi-custom US",
+      "sources": "BookaBuilderUK 2025; Seanote FL 2025"
+    },
+    {
+      "id": "U04",
+      "category": "Units & Cabinetry",
+      "subCategory": "Mid-range (rigid/branded)",
+      "description": "Wall unit \u2013 supply only",
+      "unit": "per unit",
+      "uk": {
+        "low": 100,
+        "mid": 200,
+        "high": 350
+      },
+      "us": {
+        "low": 130,
+        "mid": 260,
+        "high": 450
+      },
+      "ca": {
+        "low": 145,
+        "mid": 290,
+        "high": 505
+      },
+      "notes": "Rigid carcass with soft-close fittings",
+      "sources": "BookaBuilderUK 2025"
+    },
+    {
+      "id": "U05",
+      "category": "Units & Cabinetry",
+      "subCategory": "Premium / Bespoke",
+      "description": "Base unit \u2013 supply only (custom/handmade)",
+      "unit": "per unit",
+      "uk": {
+        "low": 500,
+        "mid": 1200,
+        "high": 3500
+      },
+      "us": {
+        "low": 700,
+        "mid": 1600,
+        "high": 5000
+      },
+      "ca": {
+        "low": 790,
+        "mid": 1800,
+        "high": 5600
+      },
+      "notes": "Bespoke/handmade UK; custom cabinetry US/CA. Island at upper end.",
+      "sources": "Gardiner of England 2025; Nelson Cabinetry 2025"
+    },
+    {
+      "id": "U06",
+      "category": "Units & Cabinetry",
+      "subCategory": "Installation Labour",
+      "description": "Kitchen fitter \u2013 day rate",
+      "unit": "per day",
+      "uk": {
+        "low": 250,
+        "mid": 300,
+        "high": 400
+      },
+      "us": {
+        "low": 400,
+        "mid": 600,
+        "high": 800
+      },
+      "ca": {
+        "low": 450,
+        "mid": 670,
+        "high": 900
+      },
+      "notes": "UK avg \u00a3300/day; London \u00a3400/day+. Small kit: 3\u20134 days; medium: 5\u20137 days; large: 8\u201312 days",
+      "sources": "Checkatrade 2025; EcosafeGroup 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "U07",
+      "category": "Units & Cabinetry",
+      "subCategory": "Installation Labour",
+      "description": "Total fitting \u2013 small kitchen project",
+      "unit": "project",
+      "uk": {
+        "low": 2500,
+        "mid": 3500,
+        "high": 5000
+      },
+      "us": {
+        "low": 3000,
+        "mid": 5000,
+        "high": 8000
+      },
+      "ca": {
+        "low": 3400,
+        "mid": 5600,
+        "high": 9000
+      },
+      "notes": "Includes assembly, installation, scribing, making good. Supply of units separate.",
+      "sources": "Checkatrade 2025; JobEstimator UK 2026"
+    },
+    {
+      "id": "U08",
+      "category": "Units & Cabinetry",
+      "subCategory": "Installation Labour",
+      "description": "Total fitting \u2013 medium kitchen project",
+      "unit": "project",
+      "uk": {
+        "low": 3500,
+        "mid": 5500,
+        "high": 8000
+      },
+      "us": {
+        "low": 5000,
+        "mid": 8000,
+        "high": 12000
+      },
+      "ca": {
+        "low": 5600,
+        "mid": 9000,
+        "high": 13500
+      },
+      "notes": "Medium kitchen 10\u201314 units",
+      "sources": "Checkatrade 2025; JobEstimator UK 2026"
+    },
+    {
+      "id": "W01",
+      "category": "Worktops",
+      "subCategory": "Laminate",
+      "description": "Supply & fit \u2013 per linear metre (600mm wide)",
+      "unit": "per lin.m",
+      "uk": {
+        "low": 50,
+        "mid": 70,
+        "high": 120
+      },
+      "us": {
+        "low": 65,
+        "mid": 90,
+        "high": 155
+      },
+      "ca": {
+        "low": 73,
+        "mid": 100,
+        "high": 175
+      },
+      "notes": "Budget post-formed to quality laminate. Average kitchen ~5m linear",
+      "sources": "BestBuilders UK 2025; CheckatradeUK 2026; HomeAdvisor 2025"
+    },
+    {
+      "id": "W02",
+      "category": "Worktops",
+      "subCategory": "Laminate",
+      "description": "Supply & fit \u2013 medium kitchen project (~5m run)",
+      "unit": "project",
+      "uk": {
+        "low": 300,
+        "mid": 500,
+        "high": 800
+      },
+      "us": {
+        "low": 400,
+        "mid": 600,
+        "high": 1000
+      },
+      "ca": {
+        "low": 450,
+        "mid": 670,
+        "high": 1125
+      },
+      "notes": "Includes cutouts for sink and hob",
+      "sources": "PriceYourJob UK 2025"
+    },
+    {
+      "id": "W03",
+      "category": "Worktops",
+      "subCategory": "Solid Wood (oak/walnut)",
+      "description": "Supply & fit \u2013 per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 120,
+        "mid": 200,
+        "high": 350
+      },
+      "us": {
+        "low": 155,
+        "mid": 255,
+        "high": 445
+      },
+      "ca": {
+        "low": 175,
+        "mid": 285,
+        "high": 500
+      },
+      "notes": "Oak budget; walnut/iroko premium. Needs regular oiling.",
+      "sources": "Homebuilding.co.uk 2025; PriceYourJob 2025"
+    },
+    {
+      "id": "W04",
+      "category": "Worktops",
+      "subCategory": "Solid Wood (oak/walnut)",
+      "description": "Supply & fit \u2013 medium kitchen project",
+      "unit": "project",
+      "uk": {
+        "low": 700,
+        "mid": 1200,
+        "high": 2000
+      },
+      "us": {
+        "low": 890,
+        "mid": 1525,
+        "high": 2545
+      },
+      "ca": {
+        "low": 1000,
+        "mid": 1715,
+        "high": 2855
+      },
+      "notes": "~5m run inc fitting, cutouts",
+      "sources": "PriceYourJob UK 2025"
+    },
+    {
+      "id": "W05",
+      "category": "Worktops",
+      "subCategory": "Quartz",
+      "description": "Supply & fit \u2013 per m\u00b2 (incl. templating & CNC)",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 350,
+        "mid": 550,
+        "high": 900
+      },
+      "us": {
+        "low": 445,
+        "mid": 700,
+        "high": 1145
+      },
+      "ca": {
+        "low": 500,
+        "mid": 785,
+        "high": 1285
+      },
+      "notes": "Budget quartz \u00a3350/m\u00b2; premium veined slab \u00a3900+. Expert: \u00a3350\u2013\u00a31,400/m\u00b2 range",
+      "sources": "Homebuilding.co.uk 2025 (Mike Bekin); Mo's StoneX 2025"
+    },
+    {
+      "id": "W06",
+      "category": "Worktops",
+      "subCategory": "Quartz",
+      "description": "Supply & fit \u2013 medium kitchen project",
+      "unit": "project",
+      "uk": {
+        "low": 1500,
+        "mid": 2500,
+        "high": 4000
+      },
+      "us": {
+        "low": 1910,
+        "mid": 3180,
+        "high": 5090
+      },
+      "ca": {
+        "low": 2150,
+        "mid": 3570,
+        "high": 5720
+      },
+      "notes": "~5m run. Island + upstands adds \u00a3500\u2013\u00a31,500",
+      "sources": "Mo's StoneX 2025; PriceYourJob 2025"
+    },
+    {
+      "id": "W07",
+      "category": "Worktops",
+      "subCategory": "Granite",
+      "description": "Supply & fit \u2013 per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 400,
+        "mid": 600,
+        "high": 1000
+      },
+      "us": {
+        "low": 510,
+        "mid": 765,
+        "high": 1275
+      },
+      "ca": {
+        "low": 570,
+        "mid": 855,
+        "high": 1430
+      },
+      "notes": "Standard to exotic granite. Includes template, CNC cut, edge profile",
+      "sources": "Homebuilding.co.uk 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "W08",
+      "category": "Worktops",
+      "subCategory": "Granite",
+      "description": "Supply & fit \u2013 medium kitchen project",
+      "unit": "project",
+      "uk": {
+        "low": 1800,
+        "mid": 3000,
+        "high": 5000
+      },
+      "us": {
+        "low": 2290,
+        "mid": 3820,
+        "high": 6365
+      },
+      "ca": {
+        "low": 2575,
+        "mid": 4285,
+        "high": 7140
+      },
+      "notes": "~5m run",
+      "sources": "PriceYourJob 2025"
+    },
+    {
+      "id": "W09",
+      "category": "Worktops",
+      "subCategory": "Corian / Composite",
+      "description": "Supply & fit \u2013 per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 250,
+        "mid": 400,
+        "high": 700
+      },
+      "us": {
+        "low": 320,
+        "mid": 510,
+        "high": 890
+      },
+      "ca": {
+        "low": 360,
+        "mid": 570,
+        "high": 1000
+      },
+      "notes": "Can be shaped/curved. Seamless integrated sink option.",
+      "sources": "Worktophub.co.uk 2025"
+    },
+    {
+      "id": "W10",
+      "category": "Worktops",
+      "subCategory": "Porcelain / Dekton",
+      "description": "Supply & fit \u2013 per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 300,
+        "mid": 500,
+        "high": 900
+      },
+      "us": {
+        "low": 380,
+        "mid": 635,
+        "high": 1145
+      },
+      "ca": {
+        "low": 430,
+        "mid": 715,
+        "high": 1285
+      },
+      "notes": "Ultra-durable. Silestone/Dekton top end.",
+      "sources": "Various UK fabricators 2025"
+    },
+    {
+      "id": "A01",
+      "category": "Appliances",
+      "subCategory": "Built-in Oven",
+      "description": "Electric oven \u2013 budget",
+      "unit": "per unit",
+      "uk": {
+        "low": 250,
+        "mid": 400,
+        "high": 700
+      },
+      "us": {
+        "low": 320,
+        "mid": 510,
+        "high": 890
+      },
+      "ca": {
+        "low": 360,
+        "mid": 570,
+        "high": 1000
+      },
+      "notes": "Standard pyrolytic. Add \u00a350\u2013\u00a3150 electrician for hardwiring.",
+      "sources": "BetterHomeHub 2025; MJKLoss 2025"
+    },
+    {
+      "id": "A02",
+      "category": "Appliances",
+      "subCategory": "Built-in Oven",
+      "description": "Electric oven \u2013 mid-range",
+      "unit": "per unit",
+      "uk": {
+        "low": 500,
+        "mid": 900,
+        "high": 1500
+      },
+      "us": {
+        "low": 635,
+        "mid": 1145,
+        "high": 1910
+      },
+      "ca": {
+        "low": 715,
+        "mid": 1285,
+        "high": 2145
+      },
+      "notes": "Siemens/AEG/Bosch. Pyrolytic + steam typical at mid.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A03",
+      "category": "Appliances",
+      "subCategory": "Built-in Oven",
+      "description": "Electric oven \u2013 premium",
+      "unit": "per unit",
+      "uk": {
+        "low": 1200,
+        "mid": 2000,
+        "high": 4000
+      },
+      "us": {
+        "low": 1525,
+        "mid": 2545,
+        "high": 5090
+      },
+      "ca": {
+        "low": 1715,
+        "mid": 2855,
+        "high": 5720
+      },
+      "notes": "Miele/Gaggenau. Steam combi, app connectivity.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A04",
+      "category": "Appliances",
+      "subCategory": "Hob",
+      "description": "Gas hob \u2013 budget to mid",
+      "unit": "per unit",
+      "uk": {
+        "low": 150,
+        "mid": 350,
+        "high": 700
+      },
+      "us": {
+        "low": 190,
+        "mid": 445,
+        "high": 890
+      },
+      "ca": {
+        "low": 215,
+        "mid": 500,
+        "high": 1000
+      },
+      "notes": "4-burner. Needs Gas Safe (UK) / licensed gas fitter.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A05",
+      "category": "Appliances",
+      "subCategory": "Hob",
+      "description": "Induction hob \u2013 budget to mid",
+      "unit": "per unit",
+      "uk": {
+        "low": 250,
+        "mid": 600,
+        "high": 1200
+      },
+      "us": {
+        "low": 320,
+        "mid": 765,
+        "high": 1525
+      },
+      "ca": {
+        "low": 360,
+        "mid": 855,
+        "high": 1715
+      },
+      "notes": "4-zone. Requires 32A circuit (UK). Premium flex-zone higher.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A06",
+      "category": "Appliances",
+      "subCategory": "Hob",
+      "description": "Induction hob \u2013 premium (flex/full-surface)",
+      "unit": "per unit",
+      "uk": {
+        "low": 800,
+        "mid": 1500,
+        "high": 3000
+      },
+      "us": {
+        "low": 1020,
+        "mid": 1910,
+        "high": 3820
+      },
+      "ca": {
+        "low": 1145,
+        "mid": 2145,
+        "high": 4285
+      },
+      "notes": "Siemens/Neff/Miele full-surface or flex-zone.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A07",
+      "category": "Appliances",
+      "subCategory": "Range Cooker",
+      "description": "Range cooker \u2013 budget (60\u201390cm dual fuel)",
+      "unit": "per unit",
+      "uk": {
+        "low": 800,
+        "mid": 1200,
+        "high": 2000
+      },
+      "us": {
+        "low": 1020,
+        "mid": 1525,
+        "high": 2545
+      },
+      "ca": {
+        "low": 1145,
+        "mid": 1715,
+        "high": 2855
+      },
+      "notes": "Stoves/Leisure/Belling. Separate gas/electric connection cost.",
+      "sources": "BetterHomeHub 2025; Checkatrade 2025"
+    },
+    {
+      "id": "A08",
+      "category": "Appliances",
+      "subCategory": "Range Cooker",
+      "description": "Range cooker \u2013 mid (90\u2013100cm)",
+      "unit": "per unit",
+      "uk": {
+        "low": 1500,
+        "mid": 2500,
+        "high": 4500
+      },
+      "us": {
+        "low": 1910,
+        "mid": 3180,
+        "high": 5730
+      },
+      "ca": {
+        "low": 2145,
+        "mid": 3570,
+        "high": 6430
+      },
+      "notes": "Rangemaster/Smeg/Bertazzoni. Gas connection additional.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A09",
+      "category": "Appliances",
+      "subCategory": "Range Cooker",
+      "description": "Range cooker \u2013 premium (110cm+ / pro-style)",
+      "unit": "per unit",
+      "uk": {
+        "low": 4000,
+        "mid": 7000,
+        "high": 15000
+      },
+      "us": {
+        "low": 5090,
+        "mid": 8910,
+        "high": 19100
+      },
+      "ca": {
+        "low": 5720,
+        "mid": 10015,
+        "high": 21450
+      },
+      "notes": "Aga/La Cornue/Wolf/Lacanche. Structural considerations.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A10",
+      "category": "Appliances",
+      "subCategory": "Cooker Hood",
+      "description": "Chimney/canopy hood \u2013 budget to mid",
+      "unit": "per unit",
+      "uk": {
+        "low": 100,
+        "mid": 300,
+        "high": 700
+      },
+      "us": {
+        "low": 130,
+        "mid": 380,
+        "high": 890
+      },
+      "ca": {
+        "low": 145,
+        "mid": 430,
+        "high": 1000
+      },
+      "notes": "Requires ducting or recirculating kit. Install ~1 hr.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A11",
+      "category": "Appliances",
+      "subCategory": "Cooker Hood",
+      "description": "Ceiling cassette / downdraft \u2013 premium",
+      "unit": "per unit",
+      "uk": {
+        "low": 600,
+        "mid": 1200,
+        "high": 2500
+      },
+      "us": {
+        "low": 765,
+        "mid": 1525,
+        "high": 3180
+      },
+      "ca": {
+        "low": 860,
+        "mid": 1715,
+        "high": 3570
+      },
+      "notes": "Island/ceiling-mounted or Novy/Elica integrated downdraft.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A12",
+      "category": "Appliances",
+      "subCategory": "Fridge-Freezer",
+      "description": "Freestanding \u2013 budget to mid (60cm)",
+      "unit": "per unit",
+      "uk": {
+        "low": 300,
+        "mid": 600,
+        "high": 1200
+      },
+      "us": {
+        "low": 380,
+        "mid": 765,
+        "high": 1525
+      },
+      "ca": {
+        "low": 430,
+        "mid": 860,
+        "high": 1715
+      },
+      "notes": "A-rated. Stainless steel mid. Smart fridge \u00a33,000+.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A13",
+      "category": "Appliances",
+      "subCategory": "Fridge-Freezer",
+      "description": "Integrated (70/30 or 50/50 split)",
+      "unit": "per unit",
+      "uk": {
+        "low": 500,
+        "mid": 900,
+        "high": 2000
+      },
+      "us": {
+        "low": 635,
+        "mid": 1145,
+        "high": 2545
+      },
+      "ca": {
+        "low": 715,
+        "mid": 1285,
+        "high": 2855
+      },
+      "notes": "Add cabinetry door panel cost.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A14",
+      "category": "Appliances",
+      "subCategory": "Fridge-Freezer",
+      "description": "American-style / French door",
+      "unit": "per unit",
+      "uk": {
+        "low": 800,
+        "mid": 1500,
+        "high": 3000
+      },
+      "us": {
+        "low": 1020,
+        "mid": 1910,
+        "high": 3820
+      },
+      "ca": {
+        "low": 1145,
+        "mid": 2145,
+        "high": 4285
+      },
+      "notes": "Needs 900mm+ space. Popular US/CA format.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A15",
+      "category": "Appliances",
+      "subCategory": "Dishwasher",
+      "description": "Standard integrated dishwasher",
+      "unit": "per unit",
+      "uk": {
+        "low": 300,
+        "mid": 550,
+        "high": 1000
+      },
+      "us": {
+        "low": 380,
+        "mid": 700,
+        "high": 1275
+      },
+      "ca": {
+        "low": 430,
+        "mid": 785,
+        "high": 1430
+      },
+      "notes": "60cm integrated. Premium: near-silent, auto-open drying.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A16",
+      "category": "Appliances",
+      "subCategory": "Dishwasher",
+      "description": "Premium integrated (Bosch S8/Miele)",
+      "unit": "per unit",
+      "uk": {
+        "low": 700,
+        "mid": 1200,
+        "high": 2500
+      },
+      "us": {
+        "low": 890,
+        "mid": 1525,
+        "high": 3180
+      },
+      "ca": {
+        "low": 1000,
+        "mid": 1715,
+        "high": 3570
+      },
+      "notes": "Near-silent operation. Zeolith drying.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "A17",
+      "category": "Appliances",
+      "subCategory": "Full Suite \u2013 Budget",
+      "description": "Oven + hob + hood (budget branded)",
+      "unit": "project",
+      "uk": {
+        "low": 700,
+        "mid": 1200,
+        "high": 2000
+      },
+      "us": {
+        "low": 890,
+        "mid": 1525,
+        "high": 2545
+      },
+      "ca": {
+        "low": 1000,
+        "mid": 1715,
+        "high": 2855
+      },
+      "notes": "Basic integrated set. Fridge/dishwasher additional.",
+      "sources": "JobEstimator UK 2026"
+    },
+    {
+      "id": "A18",
+      "category": "Appliances",
+      "subCategory": "Full Suite \u2013 Mid",
+      "description": "Oven + hob + hood + fridge-freezer + dishwasher",
+      "unit": "project",
+      "uk": {
+        "low": 3000,
+        "mid": 5000,
+        "high": 8000
+      },
+      "us": {
+        "low": 3820,
+        "mid": 6365,
+        "high": 10185
+      },
+      "ca": {
+        "low": 4285,
+        "mid": 7140,
+        "high": 11430
+      },
+      "notes": "Good mid-range integrated suite.",
+      "sources": "JobEstimator UK 2026; Seanote FL 2025"
+    },
+    {
+      "id": "A19",
+      "category": "Appliances",
+      "subCategory": "Full Suite \u2013 Premium",
+      "description": "Full integrated premium brand suite",
+      "unit": "project",
+      "uk": {
+        "low": 8000,
+        "mid": 15000,
+        "high": 30000
+      },
+      "us": {
+        "low": 10185,
+        "mid": 19100,
+        "high": 38200
+      },
+      "ca": {
+        "low": 11430,
+        "mid": 21450,
+        "high": 42900
+      },
+      "notes": "Miele/Gaggenau/Siemens iQ900. Excludes range cooker.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "F01",
+      "category": "Flooring",
+      "subCategory": "Vinyl / Sheet Vinyl",
+      "description": "Supply & fit \u2013 per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 15,
+        "mid": 30,
+        "high": 50
+      },
+      "us": {
+        "low": 19,
+        "mid": 38,
+        "high": 64
+      },
+      "ca": {
+        "low": 21,
+        "mid": 43,
+        "high": 72
+      },
+      "notes": "Budget waterproof option. Sheet vinyl or basic tile.",
+      "sources": "JobEstimator UK 2026; HomeAdvisor 2025"
+    },
+    {
+      "id": "F02",
+      "category": "Flooring",
+      "subCategory": "LVT / LVP (Luxury Vinyl)",
+      "description": "Supply & fit \u2013 per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 30,
+        "mid": 55,
+        "high": 90
+      },
+      "us": {
+        "low": 38,
+        "mid": 70,
+        "high": 115
+      },
+      "ca": {
+        "low": 43,
+        "mid": 79,
+        "high": 130
+      },
+      "notes": "Most popular kitchen floor 2025. Click-lock, fully waterproof. ~$4\u2013$16/sqft installed US.",
+      "sources": "BetterHomeHub 2025; HomeAdvisor 2025; PKFloors 2025"
+    },
+    {
+      "id": "F03",
+      "category": "Flooring",
+      "subCategory": "Laminate",
+      "description": "Supply & fit \u2013 per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 25,
+        "mid": 45,
+        "high": 75
+      },
+      "us": {
+        "low": 32,
+        "mid": 57,
+        "high": 96
+      },
+      "ca": {
+        "low": 36,
+        "mid": 64,
+        "high": 108
+      },
+      "notes": "AC4/AC5 for kitchens. Use moisture-resistant variant only.",
+      "sources": "JobEstimator UK 2026; HomeGuide 2025"
+    },
+    {
+      "id": "F04",
+      "category": "Flooring",
+      "subCategory": "Ceramic / Porcelain Tile",
+      "description": "Supply & fit \u2013 per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 50,
+        "mid": 90,
+        "high": 180
+      },
+      "us": {
+        "low": 64,
+        "mid": 115,
+        "high": 229
+      },
+      "ca": {
+        "low": 72,
+        "mid": 129,
+        "high": 258
+      },
+      "notes": "Includes adhesive, grout, cuts. Large-format at upper end. ~$6\u2013$20/sqft US.",
+      "sources": "BetterHomeHub 2025; HomeGuide 2025"
+    },
+    {
+      "id": "F05",
+      "category": "Flooring",
+      "subCategory": "Engineered Hardwood",
+      "description": "Supply & fit \u2013 per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 80,
+        "mid": 130,
+        "high": 220
+      },
+      "us": {
+        "low": 102,
+        "mid": 166,
+        "high": 280
+      },
+      "ca": {
+        "low": 115,
+        "mid": 186,
+        "high": 315
+      },
+      "notes": "Warm look. Use moisture protection. ~$4\u2013$12/sqft materials US.",
+      "sources": "BestBuilders UK 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "F06",
+      "category": "Flooring",
+      "subCategory": "Underfloor Heating (electric)",
+      "description": "Electric mat \u2013 supply & fit per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 50,
+        "mid": 80,
+        "high": 130
+      },
+      "us": {
+        "low": 64,
+        "mid": 102,
+        "high": 166
+      },
+      "ca": {
+        "low": 72,
+        "mid": 115,
+        "high": 186
+      },
+      "notes": "Add thermostat ~\u00a3100\u2013\u00a3250. Hydronic (wet) system 3\u20134x more expensive.",
+      "sources": "Various UK 2025"
+    },
+    {
+      "id": "F07",
+      "category": "Flooring",
+      "subCategory": "Floor Strip / Prep",
+      "description": "Remove existing floor \u2013 per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 8,
+        "mid": 15,
+        "high": 30
+      },
+      "us": {
+        "low": 10,
+        "mid": 19,
+        "high": 38
+      },
+      "ca": {
+        "low": 11,
+        "mid": 21,
+        "high": 43
+      },
+      "notes": "Tile removal more expensive. Includes disposal.",
+      "sources": "Various 2025"
+    },
+    {
+      "id": "PL01",
+      "category": "Plumbing",
+      "subCategory": "Sink & Tap",
+      "description": "Sink + mixer tap \u2013 supply & fit",
+      "unit": "project",
+      "uk": {
+        "low": 300,
+        "mid": 600,
+        "high": 1200
+      },
+      "us": {
+        "low": 380,
+        "mid": 765,
+        "high": 1525
+      },
+      "ca": {
+        "low": 430,
+        "mid": 860,
+        "high": 1715
+      },
+      "notes": "Stainless or composite 1.5 bowl + mixer. Premium Quooker boiling tap \u00a3700\u2013\u00a31,200 extra.",
+      "sources": "Various UK 2025; HomeGuide 2025"
+    },
+    {
+      "id": "PL02",
+      "category": "Plumbing",
+      "subCategory": "Connection Labour",
+      "description": "Connect new sink / dishwasher \u2013 labour only",
+      "unit": "project",
+      "uk": {
+        "low": 200,
+        "mid": 350,
+        "high": 600
+      },
+      "us": {
+        "low": 255,
+        "mid": 445,
+        "high": 765
+      },
+      "ca": {
+        "low": 285,
+        "mid": 500,
+        "high": 860
+      },
+      "notes": "UK ~\u00a340\u2013\u00a360/hr; US $80\u2013$130/hr. ~3\u20136 hrs for new connections.",
+      "sources": "Checkatrade 2025; HomeGuide 2025"
+    },
+    {
+      "id": "PL03",
+      "category": "Plumbing",
+      "subCategory": "Pipework Relocation",
+      "description": "Relocate sink / alter supply & waste",
+      "unit": "project",
+      "uk": {
+        "low": 600,
+        "mid": 1200,
+        "high": 2500
+      },
+      "us": {
+        "low": 765,
+        "mid": 1525,
+        "high": 3180
+      },
+      "ca": {
+        "low": 860,
+        "mid": 1715,
+        "high": 3570
+      },
+      "notes": "Moving waste stack expensive. Avoid if possible. US slab: higher.",
+      "sources": "BetterHomeHub 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "PL04",
+      "category": "Plumbing",
+      "subCategory": "Gas Connection",
+      "description": "Gas Safe engineer \u2013 connect/alter gas supply",
+      "unit": "project",
+      "uk": {
+        "low": 300,
+        "mid": 500,
+        "high": 1000
+      },
+      "us": {
+        "low": 380,
+        "mid": 635,
+        "high": 1275
+      },
+      "ca": {
+        "low": 430,
+        "mid": 715,
+        "high": 1430
+      },
+      "notes": "UK Gas Safe required. US licensed gas fitter. New line from meter much higher.",
+      "sources": "Checkatrade 2025; HomeGuide 2025"
+    },
+    {
+      "id": "E01",
+      "category": "Electrical",
+      "subCategory": "General Kitchen Electrical",
+      "description": "Add/upgrade sockets, connections (Part P certified)",
+      "unit": "project",
+      "uk": {
+        "low": 500,
+        "mid": 900,
+        "high": 1800
+      },
+      "us": {
+        "low": 635,
+        "mid": 1145,
+        "high": 2290
+      },
+      "ca": {
+        "low": 715,
+        "mid": 1285,
+        "high": 2575
+      },
+      "notes": "Oven circuit, extraction, sockets. Full rewire additional \u00a32,000\u2013\u00a35,000.",
+      "sources": "BetterHomeHub 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "E02",
+      "category": "Electrical",
+      "subCategory": "Dedicated Circuit",
+      "description": "New 32A circuit for induction hob or double oven",
+      "unit": "project",
+      "uk": {
+        "low": 250,
+        "mid": 450,
+        "high": 800
+      },
+      "us": {
+        "low": 320,
+        "mid": 575,
+        "high": 1020
+      },
+      "ca": {
+        "low": 360,
+        "mid": 645,
+        "high": 1145
+      },
+      "notes": "Required for induction hob in most UK homes. Add to E01 for full reno.",
+      "sources": "Various UK 2025"
+    },
+    {
+      "id": "E03",
+      "category": "Electrical",
+      "subCategory": "Electrician Day Rate",
+      "description": "Licensed electrician \u2013 day rate",
+      "unit": "per day",
+      "uk": {
+        "low": 250,
+        "mid": 350,
+        "high": 500
+      },
+      "us": {
+        "low": 350,
+        "mid": 500,
+        "high": 750
+      },
+      "ca": {
+        "low": 395,
+        "mid": 560,
+        "high": 840
+      },
+      "notes": "UK \u00a3250\u2013\u00a3500/day. US $350\u2013$750/day by state. London/NYC premium.",
+      "sources": "BetterHomeHub 2025; Arch KBB 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "L01",
+      "category": "Lighting",
+      "subCategory": "Under-Cabinet LED",
+      "description": "Under-cabinet lighting \u2013 supply & fit",
+      "unit": "project",
+      "uk": {
+        "low": 150,
+        "mid": 300,
+        "high": 600
+      },
+      "us": {
+        "low": 190,
+        "mid": 380,
+        "high": 765
+      },
+      "ca": {
+        "low": 215,
+        "mid": 430,
+        "high": 860
+      },
+      "notes": "LED strip or puck. Hardwired vs plug-in. Add electrician for hardwired.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "L02",
+      "category": "Lighting",
+      "subCategory": "Ceiling Downlights",
+      "description": "Fire-rated LED downlight \u2013 per light (supply & fit)",
+      "unit": "per light",
+      "uk": {
+        "low": 80,
+        "mid": 150,
+        "high": 300
+      },
+      "us": {
+        "low": 100,
+        "mid": 190,
+        "high": 380
+      },
+      "ca": {
+        "low": 115,
+        "mid": 215,
+        "high": 430
+      },
+      "notes": "Avg kitchen 6\u201310 lights. Includes electrician.",
+      "sources": "Various UK 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "L03",
+      "category": "Lighting",
+      "subCategory": "Full Package",
+      "description": "Full kitchen lighting (under-cab + ceiling + pendant)",
+      "unit": "project",
+      "uk": {
+        "low": 400,
+        "mid": 700,
+        "high": 1500
+      },
+      "us": {
+        "low": 510,
+        "mid": 890,
+        "high": 1910
+      },
+      "ca": {
+        "low": 570,
+        "mid": 1000,
+        "high": 2145
+      },
+      "notes": "Includes pendant over island. All electrician labour included.",
+      "sources": "BetterHomeHub 2025"
+    },
+    {
+      "id": "D01",
+      "category": "Painting & Decorating",
+      "subCategory": "Paint Only",
+      "description": "Moisture-resistant kitchen paint \u2013 supply only",
+      "unit": "project",
+      "uk": {
+        "low": 80,
+        "mid": 150,
+        "high": 300
+      },
+      "us": {
+        "low": 100,
+        "mid": 190,
+        "high": 380
+      },
+      "ca": {
+        "low": 115,
+        "mid": 215,
+        "high": 430
+      },
+      "notes": "Premium kitchen paint for ~15m\u00b2 walls.",
+      "sources": "Various 2025"
+    },
+    {
+      "id": "D02",
+      "category": "Painting & Decorating",
+      "subCategory": "Professional Decoration",
+      "description": "Walls + ceiling professional paint (all prep)",
+      "unit": "project",
+      "uk": {
+        "low": 400,
+        "mid": 700,
+        "high": 1200
+      },
+      "us": {
+        "low": 510,
+        "mid": 890,
+        "high": 1525
+      },
+      "ca": {
+        "low": 570,
+        "mid": 1000,
+        "high": 1715
+      },
+      "notes": "Filler, primer, 2 coats. High ceilings/cornice add 20\u201340%.",
+      "sources": "Various UK 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "D03",
+      "category": "Painting & Decorating",
+      "subCategory": "Tile Splashback",
+      "description": "Ceramic/porcelain tile splashback \u2013 supply & fit per m\u00b2",
+      "unit": "per m\u00b2",
+      "uk": {
+        "low": 80,
+        "mid": 150,
+        "high": 350
+      },
+      "us": {
+        "low": 100,
+        "mid": 190,
+        "high": 445
+      },
+      "ca": {
+        "low": 115,
+        "mid": 215,
+        "high": 500
+      },
+      "notes": "Metro tiles budget; large-format stone premium.",
+      "sources": "Various 2025"
+    },
+    {
+      "id": "D04",
+      "category": "Painting & Decorating",
+      "subCategory": "Glass/Quartz Splashback",
+      "description": "Full-height glass or quartz splashback \u2013 supply & fit",
+      "unit": "project",
+      "uk": {
+        "low": 400,
+        "mid": 800,
+        "high": 2000
+      },
+      "us": {
+        "low": 510,
+        "mid": 1020,
+        "high": 2545
+      },
+      "ca": {
+        "low": 570,
+        "mid": 1145,
+        "high": 2855
+      },
+      "notes": "Single piece glass or quartz matching worktop.",
+      "sources": "Various 2025"
+    },
+    {
+      "id": "WD01",
+      "category": "Windows & Doors",
+      "subCategory": "Window Replacement",
+      "description": "Replace 1 kitchen window \u2013 uPVC double glazed",
+      "unit": "per window",
+      "uk": {
+        "low": 600,
+        "mid": 1000,
+        "high": 2500
+      },
+      "us": {
+        "low": 765,
+        "mid": 1275,
+        "high": 3180
+      },
+      "ca": {
+        "low": 860,
+        "mid": 1430,
+        "high": 3570
+      },
+      "notes": "Standard 900\u00d71000mm casement. Bay/bifold much higher.",
+      "sources": "Various UK 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "WD02",
+      "category": "Windows & Doors",
+      "subCategory": "Internal Door",
+      "description": "Replace internal kitchen door \u2013 supply & fit",
+      "unit": "per door",
+      "uk": {
+        "low": 200,
+        "mid": 450,
+        "high": 900
+      },
+      "us": {
+        "low": 255,
+        "mid": 575,
+        "high": 1145
+      },
+      "ca": {
+        "low": 285,
+        "mid": 645,
+        "high": 1285
+      },
+      "notes": "Hollow-core budget; solid oak/bespoke premium.",
+      "sources": "Various 2025"
+    },
+    {
+      "id": "S01",
+      "category": "Structural",
+      "subCategory": "Wall Removal (non-load-bearing)",
+      "description": "Remove internal partition wall",
+      "unit": "project",
+      "uk": {
+        "low": 1500,
+        "mid": 2500,
+        "high": 5000
+      },
+      "us": {
+        "low": 1910,
+        "mid": 3180,
+        "high": 6365
+      },
+      "ca": {
+        "low": 2145,
+        "mid": 3570,
+        "high": 7140
+      },
+      "notes": "Incl. SE report if needed. Plaster/making good extra.",
+      "sources": "NeilAnglim 2025; HomeAdvisor 2025"
+    },
+    {
+      "id": "S02",
+      "category": "Structural",
+      "subCategory": "Wall Removal (load-bearing)",
+      "description": "Remove load-bearing wall + RSJ steel beam",
+      "unit": "project",
+      "uk": {
+        "low": 3000,
+        "mid": 6000,
+        "high": 12000
+      },
+      "us": {
+        "low": 3820,
+        "mid": 7640,
+        "high": 15275
+      },
+      "ca": {
+        "low": 4285,
+        "mid": 8570,
+        "high": 17145
+      },
+      "notes": "Incl. structural engineer, RSJ, temporary support, plaster.",
+      "sources": "Various UK 2025"
+    },
+    {
+      "id": "WR01",
+      "category": "Waste Removal",
+      "subCategory": "Skip Hire",
+      "description": "Skip hire \u2013 medium 6\u20138 yard, 7 days",
+      "unit": "project",
+      "uk": {
+        "low": 250,
+        "mid": 350,
+        "high": 500
+      },
+      "us": {
+        "low": 320,
+        "mid": 445,
+        "high": 640
+      },
+      "ca": {
+        "low": 360,
+        "mid": 500,
+        "high": 720
+      },
+      "notes": "Larger kitchen may need 10\u201312 yard. Prices higher in cities.",
+      "sources": "Checkatrade UK 2025; HomeGuide 2025"
+    }
+  ],
+  "multipliers": [
+    {
+      "factor": "Kitchen Size",
+      "setting": "Small (<8m\u00b2 / <90sqft)",
+      "low": 0.7,
+      "mid": 0.75,
+      "high": 0.8,
+      "notes": "Fewer units, shorter runs, less labour",
+      "appliesTo": "Units, Worktops, Flooring, Labour"
+    },
+    {
+      "factor": "Kitchen Size",
+      "setting": "Medium (8\u201314m\u00b2 / 90\u2013150sqft)",
+      "low": 1.0,
+      "mid": 1.0,
+      "high": 1.0,
+      "notes": "BASE \u2014 all prices are quoted at this size",
+      "appliesTo": "All categories"
+    },
+    {
+      "factor": "Kitchen Size",
+      "setting": "Large (14\u201320m\u00b2 / 150\u2013215sqft)",
+      "low": 1.28,
+      "mid": 1.35,
+      "high": 1.4,
+      "notes": "More units, longer runs, island likely",
+      "appliesTo": "Units, Worktops, Flooring, Labour"
+    },
+    {
+      "factor": "Kitchen Size",
+      "setting": "Very Large (20m\u00b2+ / 215sqft+)",
+      "low": 1.55,
+      "mid": 1.7,
+      "high": 1.9,
+      "notes": "Open-plan, multiple zones, complex layout",
+      "appliesTo": "Units, Worktops, Flooring, Labour"
+    },
+    {
+      "factor": "Layout Type",
+      "setting": "Single wall / Galley one side",
+      "low": 0.7,
+      "mid": 0.72,
+      "high": 0.75,
+      "notes": "Fewer cabinets, simpler worktop run",
+      "appliesTo": "Units, Worktops, Labour"
+    },
+    {
+      "factor": "Layout Type",
+      "setting": "Galley (two parallel walls)",
+      "low": 0.85,
+      "mid": 0.88,
+      "high": 0.9,
+      "notes": "Two runs, contained space",
+      "appliesTo": "Units, Worktops, Labour"
+    },
+    {
+      "factor": "Layout Type",
+      "setting": "L-shape",
+      "low": 1.0,
+      "mid": 1.0,
+      "high": 1.0,
+      "notes": "BASE layout",
+      "appliesTo": "All"
+    },
+    {
+      "factor": "Layout Type",
+      "setting": "U-shape",
+      "low": 1.2,
+      "mid": 1.25,
+      "high": 1.3,
+      "notes": "More corner units, complex worktops",
+      "appliesTo": "Units, Worktops, Labour"
+    },
+    {
+      "factor": "Layout Type",
+      "setting": "Island added",
+      "low": 1.2,
+      "mid": 1.3,
+      "high": 1.4,
+      "notes": "Island: units + worktop + electrical + seating",
+      "appliesTo": "Units, Worktops, Electrical"
+    },
+    {
+      "factor": "Finish Tier",
+      "setting": "Budget (flatpack / DIY-install)",
+      "low": 0.5,
+      "mid": 0.55,
+      "high": 0.65,
+      "notes": "Self-assembly, laminate, no fitting labour",
+      "appliesTo": "Units, Worktops, Labour"
+    },
+    {
+      "factor": "Finish Tier",
+      "setting": "Mid-range (rigid, trade-fitted)",
+      "low": 1.0,
+      "mid": 1.0,
+      "high": 1.0,
+      "notes": "BASE tier",
+      "appliesTo": "All"
+    },
+    {
+      "factor": "Finish Tier",
+      "setting": "Premium (bespoke / handmade)",
+      "low": 2.0,
+      "mid": 2.5,
+      "high": 3.5,
+      "notes": "Custom cabinetry, natural stone, luxury appliances",
+      "appliesTo": "Units, Worktops, Appliances"
+    },
+    {
+      "factor": "UK Location",
+      "setting": "National average",
+      "low": 1.0,
+      "mid": 1.0,
+      "high": 1.0,
+      "notes": "BASE",
+      "appliesTo": "Labour"
+    },
+    {
+      "factor": "UK Location",
+      "setting": "London & South East",
+      "low": 1.15,
+      "mid": 1.2,
+      "high": 1.3,
+      "notes": "15\u201325% premium on all labour",
+      "appliesTo": "Labour"
+    },
+    {
+      "factor": "UK Location",
+      "setting": "North / Scotland / Wales",
+      "low": 0.85,
+      "mid": 0.9,
+      "high": 0.95,
+      "notes": "Slightly below national average",
+      "appliesTo": "Labour"
+    },
+    {
+      "factor": "US Location",
+      "setting": "National average",
+      "low": 1.0,
+      "mid": 1.0,
+      "high": 1.0,
+      "notes": "BASE",
+      "appliesTo": "Labour"
+    },
+    {
+      "factor": "US Location",
+      "setting": "NYC / San Francisco / LA",
+      "low": 1.2,
+      "mid": 1.3,
+      "high": 1.4,
+      "notes": "Major metro premium; strict licensing",
+      "appliesTo": "Labour"
+    },
+    {
+      "factor": "US Location",
+      "setting": "Midwest / South",
+      "low": 0.85,
+      "mid": 0.88,
+      "high": 0.92,
+      "notes": "Below national average",
+      "appliesTo": "Labour"
+    },
+    {
+      "factor": "CA Location",
+      "setting": "Toronto / Vancouver",
+      "low": 1.1,
+      "mid": 1.15,
+      "high": 1.25,
+      "notes": "GTA / Metro Vancouver premium",
+      "appliesTo": "Labour"
+    },
+    {
+      "factor": "CA Location",
+      "setting": "Smaller cities (Edmonton/Winnipeg)",
+      "low": 0.88,
+      "mid": 0.92,
+      "high": 0.95,
+      "notes": "Below major metro rate",
+      "appliesTo": "Labour"
+    },
+    {
+      "factor": "Layout Change",
+      "setting": "No layout change (sink stays)",
+      "low": 0.8,
+      "mid": 0.8,
+      "high": 0.85,
+      "notes": "No plumbing/electrical relocation = big saving",
+      "appliesTo": "Plumbing, Electrical"
+    },
+    {
+      "factor": "Layout Change",
+      "setting": "Minor layout change",
+      "low": 1.0,
+      "mid": 1.0,
+      "high": 1.0,
+      "notes": "Sink stays, minor extra circuits",
+      "appliesTo": "Plumbing, Electrical"
+    },
+    {
+      "factor": "Layout Change",
+      "setting": "Major layout change",
+      "low": 1.5,
+      "mid": 1.8,
+      "high": 2.5,
+      "notes": "Move sink, new gas/electrical routes",
+      "appliesTo": "Plumbing, Electrical"
+    },
+    {
+      "factor": "Contingency",
+      "setting": "10% (simple project, new build)",
+      "low": 1.1,
+      "mid": 1.1,
+      "high": 1.1,
+      "notes": "Minimum buffer",
+      "appliesTo": "Total"
+    },
+    {
+      "factor": "Contingency",
+      "setting": "15% (recommended \u2013 most projects)",
+      "low": 1.15,
+      "mid": 1.15,
+      "high": 1.15,
+      "notes": "Industry standard recommendation",
+      "appliesTo": "Total"
+    },
+    {
+      "factor": "Contingency",
+      "setting": "20% (older home / extension work)",
+      "low": 1.2,
+      "mid": 1.2,
+      "high": 1.2,
+      "notes": "Use for pre-1970s or structural work",
+      "appliesTo": "Total"
+    }
+  ],
+  "quickEstimate": [
+    {
+      "category": "Units & Cabinetry (supply + full fitting)",
+      "uk": {
+        "low": 4000,
+        "mid": 7500,
+        "high": 14000
+      },
+      "us": {
+        "low": 5000,
+        "mid": 9500,
+        "high": 18000
+      },
+      "ca": {
+        "low": 5600,
+        "mid": 10600,
+        "high": 20000
+      }
+    },
+    {
+      "category": "Worktops (supply + fit, incl. cutouts)",
+      "uk": {
+        "low": 1500,
+        "mid": 3000,
+        "high": 6000
+      },
+      "us": {
+        "low": 1900,
+        "mid": 3800,
+        "high": 7600
+      },
+      "ca": {
+        "low": 2150,
+        "mid": 4300,
+        "high": 8600
+      }
+    },
+    {
+      "category": "Appliances (full integrated suite)",
+      "uk": {
+        "low": 3000,
+        "mid": 5500,
+        "high": 10000
+      },
+      "us": {
+        "low": 3800,
+        "mid": 7000,
+        "high": 12700
+      },
+      "ca": {
+        "low": 4300,
+        "mid": 7900,
+        "high": 14300
+      }
+    },
+    {
+      "category": "Flooring \u2013 LVT/tile (supply + fit)",
+      "uk": {
+        "low": 800,
+        "mid": 1500,
+        "high": 3000
+      },
+      "us": {
+        "low": 1000,
+        "mid": 1900,
+        "high": 3800
+      },
+      "ca": {
+        "low": 1100,
+        "mid": 2100,
+        "high": 4300
+      }
+    },
+    {
+      "category": "Plumbing (connections + sink/tap)",
+      "uk": {
+        "low": 400,
+        "mid": 800,
+        "high": 2000
+      },
+      "us": {
+        "low": 500,
+        "mid": 1000,
+        "high": 2500
+      },
+      "ca": {
+        "low": 560,
+        "mid": 1100,
+        "high": 2800
+      }
+    },
+    {
+      "category": "Electrical (sockets, circuits, oven)",
+      "uk": {
+        "low": 500,
+        "mid": 1000,
+        "high": 2200
+      },
+      "us": {
+        "low": 635,
+        "mid": 1270,
+        "high": 2800
+      },
+      "ca": {
+        "low": 715,
+        "mid": 1430,
+        "high": 3150
+      }
+    },
+    {
+      "category": "Lighting (under-cab + ceiling)",
+      "uk": {
+        "low": 400,
+        "mid": 700,
+        "high": 1500
+      },
+      "us": {
+        "low": 510,
+        "mid": 890,
+        "high": 1910
+      },
+      "ca": {
+        "low": 570,
+        "mid": 1000,
+        "high": 2145
+      }
+    },
+    {
+      "category": "Painting & Decorating",
+      "uk": {
+        "low": 400,
+        "mid": 700,
+        "high": 1500
+      },
+      "us": {
+        "low": 510,
+        "mid": 890,
+        "high": 1910
+      },
+      "ca": {
+        "low": 570,
+        "mid": 1000,
+        "high": 2145
+      }
+    },
+    {
+      "category": "Waste Removal / Skip",
+      "uk": {
+        "low": 250,
+        "mid": 350,
+        "high": 500
+      },
+      "us": {
+        "low": 320,
+        "mid": 445,
+        "high": 640
+      },
+      "ca": {
+        "low": 360,
+        "mid": 500,
+        "high": 720
+      }
+    },
+    {
+      "category": "Contingency (15%) \u2014 AUTO-CALCULATED",
+      "uk": {
+        "low": "=ROUND(SUM(B5:B13)*0.15,0)",
+        "mid": "=ROUND(SUM(C5:C13)*0.15,0)",
+        "high": "=ROUND(SUM(D5:D13)*0.15,0)"
+      },
+      "us": {
+        "low": "=ROUND(SUM(E5:E13)*0.15,0)",
+        "mid": "=ROUND(SUM(F5:F13)*0.15,0)",
+        "high": "=ROUND(SUM(G5:G13)*0.15,0)"
+      },
+      "ca": {
+        "low": "=ROUND(SUM(H5:H13)*0.15,0)",
+        "mid": "=ROUND(SUM(I5:I13)*0.15,0)",
+        "high": "=ROUND(SUM(J5:J13)*0.15,0)"
+      }
+    },
+    {
+      "category": "TOTAL (incl. 15% contingency)",
+      "uk": {
+        "low": "=SUM(B5:B14)",
+        "mid": "=SUM(C5:C14)",
+        "high": "=SUM(D5:D14)"
+      },
+      "us": {
+        "low": "=SUM(E5:E14)",
+        "mid": "=SUM(F5:F14)",
+        "high": "=SUM(G5:G14)"
+      },
+      "ca": {
+        "low": "=SUM(H5:H14)",
+        "mid": "=SUM(I5:I14)",
+        "high": "=SUM(J5:J14)"
+      }
+    }
+  ]
+}
