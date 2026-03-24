@@ -9,7 +9,7 @@ import {
   ScopeItem,
   FinishTier,
   WorktopMaterial,
-  ApplianceTier,
+  ApplianceSelection,
   FlooringMaterial,
   InstallationType,
   ContingencyLevel,
@@ -34,6 +34,7 @@ const initialState: EstimatorState = {
   finishTier: null,
   worktopMaterial: null,
   applianceTier: null,
+  appliances: [],
   flooringMaterial: null,
   installation: null,
   contingency: null,
@@ -90,7 +91,7 @@ export default function EstimatorWizard() {
       case "worktops":
         return state.worktopMaterial !== null;
       case "appliances":
-        return state.applianceTier !== null;
+        return state.appliances.length > 0;
       case "flooring":
         return state.flooringMaterial !== null;
       case "extras":
@@ -166,8 +167,8 @@ export default function EstimatorWizard() {
       case "appliances":
         return (
           <AppliancesStep
-            value={state.applianceTier}
-            onChange={(v: ApplianceTier) => update("applianceTier", v)}
+            value={state.appliances}
+            onChange={(v: ApplianceSelection[]) => update("appliances", v)}
           />
         );
       case "flooring":

@@ -6,9 +6,18 @@ export type LayoutType = 'single-wall' | 'galley' | 'l-shape' | 'u-shape' | 'isl
 
 export type FinishTier = 'budget' | 'mid' | 'premium';
 
-export type WorktopMaterial = 'laminate' | 'solid-wood' | 'quartz' | 'granite' | 'corian' | 'porcelain-dekton';
+export type WorktopMaterial = 'laminate' | 'solid-wood' | 'quartz' | 'granite' | 'composite' | 'marble';
 
 export type ApplianceTier = 'budget' | 'mid' | 'premium';
+
+export type ApplianceType = 'oven' | 'hob' | 'extractor' | 'fridge-freezer' | 'dishwasher' | 'washing-machine' | 'microwave';
+
+export type ApplianceBudgetTier = 'budget' | 'mid' | 'premium';
+
+export interface ApplianceSelection {
+  type: ApplianceType;
+  tier: ApplianceBudgetTier;
+}
 
 export type FlooringMaterial = 'vinyl' | 'lvt-lvp' | 'engineered-wood' | 'porcelain-tile' | 'natural-stone';
 
@@ -35,6 +44,7 @@ export interface EstimatorState {
   finishTier: FinishTier | null;
   worktopMaterial: WorktopMaterial | null;
   applianceTier: ApplianceTier | null;
+  appliances: ApplianceSelection[];
   flooringMaterial: FlooringMaterial | null;
   installation: InstallationType | null;
   contingency: ContingencyLevel | null;

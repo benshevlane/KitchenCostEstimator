@@ -9,6 +9,9 @@ import {
   LayoutType,
   FinishTier,
   ScopeItem,
+  ApplianceSelection,
+  ApplianceType,
+  ApplianceBudgetTier,
   SIZE_AREA_MAP,
 } from './types';
 
@@ -160,15 +163,18 @@ function calculateWorktops(
     case 'granite':
       materialId = 'W08';
       break;
-    case 'corian':
+    case 'composite': {
       // Use per-m² rate * approximate area
-      const corianCost = getItemCost('W09', country);
-      const corianProject = scalarMultiply(corianCost, 3); // ~3m² worktop area
-      return multiplyCost(multiplyCost(corianProject, getSizeMultiplier(size)), getLayoutMultiplier(layout));
-    case 'porcelain-dekton':
-      const dektonCost = getItemCost('W10', country);
-      const dektonProject = scalarMultiply(dektonCost, 3);
-      return multiplyCost(multiplyCost(dektonProject, getSizeMultiplier(size)), getLayoutMultiplier(layout));
+      const compositeCost = getItemCost('W09', country);
+      const compositeProject = scalarMultiply(compositeCost, 3); // ~3m² worktop area
+      return multiplyCost(multiplyCost(compositeProject, getSizeMultiplier(size)), getLayoutMultiplier(layout));
+    }
+    case 'marble': {
+      // Use granite project pricing (W08) with 1.15x premium multiplier
+      const graniteCost = getItemCost('W08', country);
+      const marbleProject = scalarMultiply(graniteCost, 1.15);
+      return multiplyCost(multiplyCost(marbleProject, getSizeMultiplier(size)), getLayoutMultiplier(layout));
+    }
     default:
       materialId = 'W06';
   }
@@ -179,6 +185,39 @@ function calculateWorktops(
   return cost;
 }
 
+// Per-appliance pricing item IDs mapped by type and tier
+const APPLIANCE_PRICING: Record<ApplianceType, Record<ApplianceBudgetTier, string>> = {
+  'oven':            { budget: 'A01', mid: 'A02', premium: 'A03' },
+  'hob':             { budget: 'A04', mid: 'A05', premium: 'A06' },
+  'extractor':       { budget: 'A10', mid: 'A10', premium: 'A11' },
+  'fridge-freezer':  { budget: 'A12', mid: 'A13', premium: 'A14' },
+  'dishwasher':      { budget: 'A15', mid: 'A15', premium: 'A16' },
+  'washing-machine': { budget: 'A15', mid: 'A15', premium: 'A16' }, // use dishwasher pricing as proxy
+  'microwave':       { budget: 'A01', mid: 'A01', premium: 'A02' }, // use budget oven as proxy, scaled down
+};
+
+// Scaling factors for appliances that share pricing codes with others
+const APPLIANCE_SCALE: Partial<Record<ApplianceType, Record<ApplianceBudgetTier, number>>> = {
+  'washing-machine': { budget: 0.8, mid: 0.8, premium: 0.8 },
+  'microwave':       { budget: 0.35, mid: 0.4, premium: 0.35 },
+};
+
+function calculateAppliancesPerItem(country: Country, appliances: ApplianceSelection[]): CostRange {
+  let total = zeroCost();
+  for (const appliance of appliances) {
+    const itemId = APPLIANCE_PRICING[appliance.type]?.[appliance.tier];
+    if (!itemId) continue;
+    let cost = getItemCost(itemId, country);
+    const scale = APPLIANCE_SCALE[appliance.type]?.[appliance.tier];
+    if (scale) {
+      cost = scalarMultiply(cost, scale);
+    }
+    total = addCosts(total, cost);
+  }
+  return total;
+}
+
+// Legacy function kept for backward compatibility
 function calculateAppliances(country: Country, tier: string): CostRange {
   switch (tier) {
     case 'budget':
@@ -268,6 +307,7 @@ export function calculateCosts(state: EstimatorState): CostResult {
     finishTier,
     worktopMaterial,
     applianceTier,
+    appliances,
     flooringMaterial,
     installation,
     contingency,
@@ -284,7 +324,10 @@ export function calculateCosts(state: EstimatorState): CostResult {
       calculateUnits(country, kitchenSize, layout, finishTier || 'mid', installation),
     worktops: () =>
       calculateWorktops(country, kitchenSize, layout, worktopMaterial || 'quartz'),
-    appliances: () => calculateAppliances(country, applianceTier || 'mid'),
+    appliances: () =>
+      appliances && appliances.length > 0
+        ? calculateAppliancesPerItem(country, appliances)
+        : calculateAppliances(country, applianceTier || 'mid'),
     flooring: () =>
       calculateFlooring(country, kitchenSize, flooringMaterial || 'lvt-lvp'),
     plumbing: () => calculatePlumbing(country, kitchenSize),

@@ -18,13 +18,8 @@ const materials: {
   { id: "solid-wood", label: "Solid Wood", desc: "Oak, walnut — warm, natural look", icon: "🪵" },
   { id: "quartz", label: "Quartz", desc: "Engineered stone — durable, low maintenance", icon: "💎" },
   { id: "granite", label: "Granite", desc: "Natural stone — unique patterns", icon: "🪨" },
-  { id: "corian", label: "Corian / Composite", desc: "Seamless, can be shaped and curved", icon: "⬜" },
-  {
-    id: "porcelain-dekton",
-    label: "Porcelain / Dekton",
-    desc: "Ultra-durable sintered stone",
-    icon: "🔲",
-  },
+  { id: "composite", label: "Composite", desc: "Seamless solid surface — can be shaped and curved", icon: "⬜" },
+  { id: "marble", label: "Marble", desc: "Luxurious natural stone with unique veining", icon: "🏛️" },
 ];
 
 export default function WorktopStep({ value, onChange }: WorktopStepProps) {
