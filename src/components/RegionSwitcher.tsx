@@ -5,6 +5,7 @@ import { useRouter, usePathname } from 'next/navigation';
 import { localeData, type LocaleKey } from '@/lib/localeData';
 
 const locales: LocaleKey[] = ['uk', 'us', 'ca'];
+const LOCALE_COOKIE = 'kce-locale';
 
 export default function RegionSwitcher() {
   const [open, setOpen] = useState(false);
@@ -12,8 +13,8 @@ export default function RegionSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
 
-  const current = (pathname.replace('/', '') as LocaleKey) || 'uk';
-  const currentLocale = localeData[current] || localeData.uk;
+  const current: LocaleKey = (locales.find((l) => pathname.startsWith(`/${l}`)) ?? 'uk');
+  const currentLocale = localeData[current];
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -25,14 +26,20 @@ export default function RegionSwitcher() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  function switchLocale(key: LocaleKey) {
+    document.cookie = `${LOCALE_COOKIE}=${key};path=/;max-age=${60 * 60 * 24 * 365};SameSite=Lax`;
+    router.push(localeData[key].slug);
+    setOpen(false);
+  }
+
   return (
-    <div ref={ref} className="fixed top-3 right-3 z-50" style={{ zIndex: 9999 }}>
+    <div ref={ref} className="relative" style={{ zIndex: 9999 }}>
       <button
         onClick={() => setOpen(!open)}
         className="flex items-center gap-2 rounded-full border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-dark shadow-sm transition-colors hover:border-gray-300"
       >
         <span>{currentLocale.flag}</span>
-        <span>{currentLocale.label}</span>
+        <span className="hidden sm:inline">{currentLocale.label}</span>
         <svg
           className={`h-3.5 w-3.5 text-muted transition-transform ${open ? 'rotate-180' : ''}`}
           fill="none"
@@ -52,10 +59,7 @@ export default function RegionSwitcher() {
             return (
               <button
                 key={key}
-                onClick={() => {
-                  router.push(locale.slug);
-                  setOpen(false);
-                }}
+                onClick={() => switchLocale(key)}
                 className={`flex w-full items-center gap-3 px-4 py-2.5 text-sm transition-colors first:rounded-t-[10px] last:rounded-b-[10px] ${
                   isActive
                     ? 'bg-teal-pale font-medium text-teal-primary'

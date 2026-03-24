@@ -7,11 +7,9 @@ const locale = localeData.ca;
 export const metadata: Metadata = {
   title: locale.metaTitle,
   description: locale.metaDescription,
-  alternates: {
-    canonical: 'https://kitchencostestimator.com/ca',
-  },
+  alternates: { canonical: 'https://kitchencostestimator.com/ca' },
 };
 
 export default function CAPage() {
-  return <HomePage locale={locale} />;
+  return <HomePage localeKey="ca" />;
 }

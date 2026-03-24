@@ -7,11 +7,9 @@ const locale = localeData.us;
 export const metadata: Metadata = {
   title: locale.metaTitle,
   description: locale.metaDescription,
-  alternates: {
-    canonical: 'https://kitchencostestimator.com/us',
-  },
+  alternates: { canonical: 'https://kitchencostestimator.com/us' },
 };
 
 export default function USPage() {
-  return <HomePage locale={locale} />;
+  return <HomePage localeKey="us" />;
 }

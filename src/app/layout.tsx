@@ -2,26 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Kitchen Cost Estimator — Free Kitchen Renovation Cost Calculator",
-  description:
-    "Free kitchen renovation cost calculator for UK, US, and Canada. Get instant estimates for units, worktops, appliances, flooring, and labour. Plan your kitchen budget today.",
-  openGraph: {
-    title: "Kitchen Cost Estimator — Free Kitchen Renovation Cost Calculator",
-    description:
-      "Get a free, instant estimate for your kitchen renovation. Compare costs for units, worktops, appliances, and more across UK, US, and Canada.",
-    type: "website",
-    url: "https://kitchencostestimator.com",
-    siteName: "Kitchen Cost Estimator",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Kitchen Cost Estimator — Free Kitchen Renovation Cost Calculator",
-    description:
-      "Free kitchen renovation cost calculator. Instant estimates for UK, US, and Canada.",
-  },
-  alternates: {
-    canonical: "https://kitchencostestimator.com",
-  },
+  title: "Kitchen Cost Estimator — Free Renovation Cost Calculator",
 };
 
 const webAppJsonLd = {
