@@ -1,7 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import RegionSwitcher from './RegionSwitcher';
+import { getPagesByLocale } from '@/content';
+import { categorize, guidesPath, pageHref, type GuideCategory } from '@/lib/guideCategories';
+import type { LocaleKey } from '@/lib/localeData';
 
 interface NavbarProps {
   navGuideLabel: string;
@@ -14,12 +18,34 @@ const navLinks = [
   { label: 'FAQ', href: '#faq' },
 ];
 
+/** Pick the top guides to feature in the dropdown (pillar first, then geo, then size). */
+function getTopGuides(locale: LocaleKey) {
+  const pages = getPagesByLocale(locale);
+  const order: GuideCategory[] = ['Pillar', 'Size', 'Geo'];
+  const sorted = pages
+    .filter((p) => order.includes(categorize(p)))
+    .sort((a, b) => order.indexOf(categorize(a)) - order.indexOf(categorize(b)));
+  return sorted.slice(0, 8);
+}
+
+function detectLocale(pathname: string): LocaleKey {
+  if (pathname.startsWith('/uk')) return 'uk';
+  if (pathname.startsWith('/ca')) return 'ca';
+  return 'us';
+}
+
 export default function Navbar({ navGuideLabel }: NavbarProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [guidesOpen, setGuidesOpen] = useState(false);
+  const pathname = usePathname();
+  const locale = detectLocale(pathname);
 
   const links = navLinks.map((l) =>
     l.label === 'costs' ? { ...l, label: navGuideLabel } : l
   );
+
+  const topGuides = getTopGuides(locale);
+  const guidesHref = guidesPath(locale);
 
   return (
     <nav className="sticky top-0 z-50 border-b border-gray-200 bg-white/90 backdrop-blur-md">
@@ -40,6 +66,45 @@ export default function Navbar({ navGuideLabel }: NavbarProps) {
               {link.label}
             </a>
           ))}
+
+          {/* Guides dropdown */}
+          <div
+            className="relative"
+            onMouseEnter={() => setGuidesOpen(true)}
+            onMouseLeave={() => setGuidesOpen(false)}
+          >
+            <a
+              href={guidesHref}
+              className="text-sm font-medium text-mid transition-colors hover:text-teal-primary"
+            >
+              Guides
+            </a>
+            {guidesOpen && (
+              <div className="absolute right-0 top-full mt-1 w-72 rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
+                <ul className="space-y-1">
+                  {topGuides.map((page) => (
+                    <li key={page.slug}>
+                      <a
+                        href={pageHref(page)}
+                        className="block rounded-md px-3 py-2 text-sm text-dark transition-colors hover:bg-gray-50 hover:text-teal-primary"
+                      >
+                        {page.meta.title.split('|')[0].trim()}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <div className="mt-2 border-t border-gray-100 pt-2">
+                  <a
+                    href={guidesHref}
+                    className="block px-3 py-2 text-sm font-medium text-teal-primary hover:underline"
+                  >
+                    View all guides &rarr;
+                  </a>
+                </div>
+              </div>
+            )}
+          </div>
+
           <RegionSwitcher />
         </div>
 
@@ -77,6 +142,13 @@ export default function Navbar({ navGuideLabel }: NavbarProps) {
               {link.label}
             </a>
           ))}
+          <a
+            href={guidesHref}
+            onClick={() => setMobileOpen(false)}
+            className="block py-2.5 text-sm font-medium text-mid transition-colors hover:text-teal-primary"
+          >
+            Guides
+          </a>
         </div>
       )}
     </nav>

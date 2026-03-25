@@ -48,6 +48,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   );
 
+  // Guides pages
+  entries.push(
+    {
+      url: `${BASE_URL}/guides`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/uk/guides`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/ca/guides`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+  );
+
   // US pages: /[slug]
   for (const page of getPagesByLocale('us')) {
     entries.push({
