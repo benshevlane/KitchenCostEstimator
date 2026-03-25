@@ -546,4 +546,395 @@ Kitchen costs in Birmingham average **£9,000 to £23,000** for a mid-range fitt
       { href: '/uk', label: 'Kitchen Cost Calculator UK' },
     ],
   },
+  {
+    slug: 'leeds-kitchen-renovation-cost',
+    locale: 'uk',
+    meta: {
+      title: 'Leeds Kitchen Renovation Cost: Yorkshire Prices (2026)',
+      description: 'Kitchen renovations in Leeds cost £9,000–£24,000 exc. VAT on average. Get a free personalised Leeds estimate with our calculator.',
+    },
+    content: `# Leeds Kitchen Renovation Cost — 2026 Guide
+
+Kitchen renovation costs in Leeds average **£9,000 to £24,000 exc. VAT** for a mid-range fitted kitchen — approximately 10% below the national average. The Yorkshire market offers competitive pricing thanks to strong fitter supply and lower labour rates (0.90× the national average).
+
+[CALCULATOR EMBED]
+
+---
+
+## Leeds Kitchen Renovation Cost by Scope
+
+| Scope | Leeds cost (£, exc. VAT) | UK national avg (exc. VAT) |
+|---|---|---|
+| Budget refresh | £3,500 – £7,500 | £4,200 – £8,300 |
+| Mid-range fitted kitchen | £9,000 – £24,000 | £10,000 – £21,000 |
+| Premium kitchen | £20,000 – £38,000 | £21,000 – £37,500 |
+| Luxury / bespoke | £35,000 – £60,000+ | £37,500 – £67,000+ |
+
+*All prices exclude VAT. Add 20% for the VAT-inclusive total.*
+
+---
+
+## Why Leeds Offers Competitive Kitchen Pricing
+
+**Below-average labour rates.** Leeds kitchen fitters charge £160–£230/day vs £180–£250/day nationally. Plumbers and electricians run £35–£55/hour, keeping overall project costs down.
+
+**Strong fitter supply.** West Yorkshire has a large pool of experienced kitchen fitters, which keeps pricing competitive. The region's strong joinery tradition means a good standard of workmanship is widely available.
+
+**Howdens well represented.** Multiple Howdens depots across Leeds and West Yorkshire provide excellent trade kitchen supply, keeping unit costs competitive for fitters and their customers.
+
+**Growing premium segment.** While Leeds has traditionally been a value market, demand for premium and bespoke kitchens is growing — particularly in north Leeds and the surrounding market towns.
+
+---
+
+## Leeds Area Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| Harrogate, Ilkley, Wetherby | +10–20% above Leeds avg |
+| Chapel Allerton, Roundhay, Horsforth | +5–10% |
+| Headingley, Meanwood | Standard |
+| South Leeds, East Leeds | -5% |
+| Bradford | -5 to -10% below Leeds avg |
+| Wakefield, Castleford | -5 to -10% |
+
+---
+
+## Leeds Kitchen Renovation Cost Breakdown (mid-range, 10–12m²)
+
+| Component | Cost range (£, exc. VAT) |
+|---|---|
+| Kitchen units (Howdens or similar, rigid) | £3,000 – £7,000 |
+| Labour (fitting, 2–3 weeks) | £2,000 – £5,000 |
+| Quartz worktop | £1,000 – £2,800 |
+| Appliances | £1,000 – £3,000 |
+| Flooring | £500 – £1,300 |
+| Plumbing & electrics | £700 – £1,800 |
+| Tiling & decoration | £400 – £1,200 |
+| Skip hire | £180 – £300 |
+| **Total** | **£9,000 – £24,000** |
+
+*All prices exclude VAT. Add 20% for the VAT-inclusive total.*
+
+---
+
+## UK Compliance Reminders
+
+**Gas Safe registration.** Any gas work (moving a cooker or gas supply) must be carried out by a Gas Safe registered engineer.
+
+**Part P (electrical).** New electrical circuits in the kitchen must comply with Part P of the Building Regulations — use a Part P registered electrician or obtain Building Control sign-off.`,
+    faqs: [
+      {
+        question: 'How much does a kitchen renovation cost in Leeds in 2026?',
+        answer: 'Mid-range kitchen renovations in Leeds typically cost £9,000–£24,000 exc. VAT. Add 20% for the VAT-inclusive total. Harrogate and Ilkley run 10–20% above the Leeds average.',
+      },
+      {
+        question: 'Is Leeds cheaper than London for a kitchen renovation?',
+        answer: 'Yes, substantially. Labour rates are roughly 35–40% lower and overall kitchen renovation costs are typically 40–50% less than equivalent London projects.',
+      },
+      {
+        question: 'Are kitchen renovation costs in Bradford lower than Leeds?',
+        answer: 'Yes, Bradford is typically 5–10% below the Leeds average for equivalent kitchen renovations, primarily due to lower labour and property-related costs.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/uk/kitchen-cost', label: 'Full UK Kitchen Cost Guide' },
+      { href: '/uk/manchester-kitchen-cost', label: 'Manchester Kitchen Cost' },
+      { href: '/uk/london-kitchen-cost', label: 'London Kitchen Cost' },
+      { href: '/uk/liverpool-kitchen-renovation-cost', label: 'Liverpool Kitchen Renovation Cost' },
+      { href: '/uk', label: 'Kitchen Cost Calculator UK' },
+    ],
+  },
+  {
+    slug: 'bristol-kitchen-renovation-cost',
+    locale: 'uk',
+    meta: {
+      title: 'Bristol Kitchen Renovation Cost: Local Prices & Guide (2026)',
+      description: 'Kitchen renovations in Bristol cost £10,500–£25,000 exc. VAT on average. Get a free personalised Bristol estimate with our calculator.',
+    },
+    content: `# Bristol Kitchen Renovation Cost — 2026 Guide
+
+Kitchen renovation costs in Bristol average **£10,500 to £25,000 exc. VAT** for a mid-range fitted kitchen — right at the national average. Bristol has a strong renovation market with a good independent fitter community and varied housing stock.
+
+[CALCULATOR EMBED]
+
+---
+
+## Bristol Kitchen Renovation Cost by Scope
+
+| Scope | Bristol cost (£, exc. VAT) | UK national avg (exc. VAT) |
+|---|---|---|
+| Budget refresh | £4,200 – £8,300 | £4,200 – £8,300 |
+| Mid-range fitted kitchen | £10,500 – £25,000 | £10,000 – £21,000 |
+| Premium kitchen | £22,000 – £40,000 | £21,000 – £37,500 |
+| Luxury / bespoke | £38,000 – £65,000+ | £37,500 – £67,000+ |
+
+*All prices exclude VAT. Add 20% for the VAT-inclusive total.*
+
+---
+
+## Bristol's Strong Renovation Market
+
+**At national average labour rates.** Bristol trades charge around the national average — kitchen fitters £180–£250/day, plumbers and electricians £40–£60/hour. The labour multiplier sits at 1.00× national average.
+
+**Good independent fitter community.** Bristol has a thriving community of independent kitchen fitters and joiners, many with strong local reputations. This provides healthy competition and keeps quality high.
+
+**Varied housing stock.** Bristol's mix of Georgian terraces (Clifton), Victorian houses (Redland, Cotham), 1930s semis (Bishopston), and new builds provides a wide range of renovation projects.
+
+**Bath proximity.** Bath is only 20 minutes from Bristol. Kitchen renovation costs in Bath run 10–15% above Bristol averages, reflecting the premium property market.
+
+---
+
+## Bristol Area Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| Clifton, Redland, Cotham | +15–25% above Bristol avg |
+| Bishopston, Westbury Park | +5–10% |
+| Bedminster, Southville | Standard to +5% |
+| South Bristol (Hartcliffe, Whitchurch) | Standard |
+| Fishponds, Easton | -5% |
+| Bath (20 mins) | +10–15% above Bristol avg |
+
+---
+
+## Bristol Kitchen Renovation Cost Breakdown (mid-range, 10–12m²)
+
+| Component | Cost range (£, exc. VAT) |
+|---|---|
+| Kitchen units (rigid, trade supplier) | £3,500 – £8,000 |
+| Labour (fitting, 2–3 weeks) | £2,500 – £5,500 |
+| Quartz worktop | £1,200 – £3,000 |
+| Appliances | £1,200 – £3,500 |
+| Flooring | £600 – £1,500 |
+| Plumbing & electrics | £800 – £2,000 |
+| Tiling & decoration | £500 – £1,500 |
+| Skip hire | £200 – £350 |
+| **Total** | **£10,500 – £25,000** |
+
+*All prices exclude VAT. Add 20% for the VAT-inclusive total.*
+
+---
+
+## UK Compliance Reminders
+
+**Gas Safe registration.** Any gas work (moving a cooker or gas supply) must be carried out by a Gas Safe registered engineer.
+
+**Part P (electrical).** New electrical circuits in the kitchen must comply with Part P of the Building Regulations — use a Part P registered electrician or obtain Building Control sign-off.`,
+    faqs: [
+      {
+        question: 'How much does a kitchen renovation cost in Bristol in 2026?',
+        answer: 'Mid-range kitchen renovations in Bristol typically cost £10,500–£25,000 exc. VAT. Add 20% for the VAT-inclusive total. Clifton and Redland run 15–25% above the Bristol average.',
+      },
+      {
+        question: 'Is Bristol more expensive than other UK cities for kitchens?',
+        answer: 'Bristol sits at the national average (1.00× labour multiplier). It is significantly cheaper than London but slightly above northern cities like Leeds and Liverpool.',
+      },
+      {
+        question: 'How do Bath kitchen costs compare to Bristol?',
+        answer: 'Bath kitchen renovation costs are typically 10–15% above Bristol averages, reflecting the premium property market. Bath is only 20 minutes from Bristol, so many fitters serve both areas.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/uk/kitchen-cost', label: 'Full UK Kitchen Cost Guide' },
+      { href: '/uk/london-kitchen-cost', label: 'London Kitchen Cost' },
+      { href: '/uk/birmingham-kitchen-cost', label: 'Birmingham Kitchen Cost' },
+      { href: '/uk/leeds-kitchen-renovation-cost', label: 'Leeds Kitchen Renovation Cost' },
+      { href: '/uk', label: 'Kitchen Cost Calculator UK' },
+    ],
+  },
+  {
+    slug: 'glasgow-kitchen-renovation-cost',
+    locale: 'uk',
+    meta: {
+      title: 'Glasgow Kitchen Renovation Cost: Scotland Prices (2026)',
+      description: 'Kitchen renovations in Glasgow cost £8,500–£22,000 exc. VAT on average. Get a free personalised Glasgow estimate with our calculator.',
+    },
+    content: `# Glasgow Kitchen Renovation Cost — 2026 Guide
+
+Kitchen renovation costs in Glasgow average **£8,500 to £22,000 exc. VAT** for a mid-range fitted kitchen — approximately 12% below the national average (0.88× labour multiplier). Glasgow offers excellent value with a strong terrace and flat market driving steady demand.
+
+[CALCULATOR EMBED]
+
+---
+
+## Glasgow Kitchen Renovation Cost by Scope
+
+| Scope | Glasgow cost (£, exc. VAT) | UK national avg (exc. VAT) |
+|---|---|---|
+| Budget refresh | £3,500 – £7,000 | £4,200 – £8,300 |
+| Mid-range fitted kitchen | £8,500 – £22,000 | £10,000 – £21,000 |
+| Premium kitchen | £18,000 – £35,000 | £21,000 – £37,500 |
+| Luxury / bespoke | £32,000 – £58,000+ | £37,500 – £67,000+ |
+
+*All prices exclude VAT. Add 20% for the VAT-inclusive total.*
+
+---
+
+## Scotland-Specific Requirements
+
+**Building Warrant (NOT Building Regulations).** Scotland has its own building standards system, entirely separate from the Building Regulations used in England and Wales. Significant kitchen renovations in Glasgow require a Building Warrant from Glasgow City Council Building Control — not a Building Regulations application.
+
+**Glasgow City Council Building Control.** Contact Glasgow City Council's Building Standards team before starting work that involves structural changes, new drainage, or major electrical work. A Building Warrant must be obtained before work begins.
+
+**Gas Safe registration.** As with the rest of the UK, any gas work must be carried out by a Gas Safe registered engineer.
+
+---
+
+## Glasgow's Strong Terrace & Flat Market
+
+**Tenement and flat renovations.** A large proportion of Glasgow kitchens are in traditional sandstone tenement flats. These present specific challenges — shared drainage stacks, solid walls, restricted delivery access — but Glasgow fitters are experienced with this housing type.
+
+**Competitive labour rates.** Glasgow trades charge £155–£220/day for kitchen fitters, well below the national average. Plumbers and electricians run £32–£50/hour.
+
+**Good fitter availability.** Glasgow and the wider Central Belt have a healthy supply of experienced kitchen fitters, keeping wait times short and pricing competitive.
+
+---
+
+## Glasgow Area Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| Bearsden, Newton Mearns, Milngavie | +10–20% above Glasgow avg |
+| West End (Hyndland, Kelvinside) | +10–15% |
+| Shawlands, Cathcart | +5–10% |
+| Southside, East End | Standard |
+| Paisley, Clydebank | -5 to -10% |
+
+---
+
+## Glasgow Kitchen Renovation Cost Breakdown (mid-range, 10–12m²)
+
+| Component | Cost range (£, exc. VAT) |
+|---|---|
+| Kitchen units (rigid, trade supplier) | £2,800 – £7,000 |
+| Labour (fitting, 2–3 weeks) | £2,000 – £4,500 |
+| Quartz worktop | £1,000 – £2,500 |
+| Appliances | £1,000 – £3,000 |
+| Flooring | £450 – £1,200 |
+| Plumbing & electrics | £650 – £1,700 |
+| Tiling & decoration | £350 – £1,100 |
+| Skip hire | £180 – £300 |
+| **Total** | **£8,500 – £22,000** |
+
+*All prices exclude VAT. Add 20% for the VAT-inclusive total.*`,
+    faqs: [
+      {
+        question: 'How much does a kitchen renovation cost in Glasgow in 2026?',
+        answer: 'Mid-range kitchen renovations in Glasgow typically cost £8,500–£22,000 exc. VAT. Add 20% for the VAT-inclusive total. Bearsden and Newton Mearns run 10–20% above the Glasgow average.',
+      },
+      {
+        question: 'Do I need a Building Warrant for a kitchen renovation in Glasgow?',
+        answer: 'Scotland uses Building Warrants, not the Building Regulations system used in England and Wales. You need a Building Warrant from Glasgow City Council for structural changes, new drainage, or major electrical work. Contact their Building Standards team before starting.',
+      },
+      {
+        question: 'How does Glasgow compare to Edinburgh for kitchen costs?',
+        answer: 'Glasgow is typically 10–15% cheaper than Edinburgh for equivalent kitchen renovations. Both cities are well below London prices.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/uk/kitchen-cost', label: 'Full UK Kitchen Cost Guide' },
+      { href: '/uk/edinburgh-kitchen-cost', label: 'Edinburgh Kitchen Cost' },
+      { href: '/uk/manchester-kitchen-cost', label: 'Manchester Kitchen Cost' },
+      { href: '/uk/liverpool-kitchen-renovation-cost', label: 'Liverpool Kitchen Renovation Cost' },
+      { href: '/uk', label: 'Kitchen Cost Calculator UK' },
+    ],
+  },
+  {
+    slug: 'liverpool-kitchen-renovation-cost',
+    locale: 'uk',
+    meta: {
+      title: 'Liverpool Kitchen Renovation Cost: Merseyside Prices (2026)',
+      description: 'Kitchen renovations in Liverpool cost £8,500–£22,000 exc. VAT on average. Get a free personalised Liverpool estimate with our calculator.',
+    },
+    content: `# Liverpool Kitchen Renovation Cost — 2026 Guide
+
+Kitchen renovation costs in Liverpool average **£8,500 to £22,000 exc. VAT** for a mid-range fitted kitchen — approximately 12% below the national average (0.88× labour multiplier). Liverpool and the wider Merseyside market offer good value with strong fitter availability.
+
+[CALCULATOR EMBED]
+
+---
+
+## Liverpool Kitchen Renovation Cost by Scope
+
+| Scope | Liverpool cost (£, exc. VAT) | UK national avg (exc. VAT) |
+|---|---|---|
+| Budget refresh | £3,500 – £7,000 | £4,200 – £8,300 |
+| Mid-range fitted kitchen | £8,500 – £22,000 | £10,000 – £21,000 |
+| Premium kitchen | £18,000 – £35,000 | £21,000 – £37,500 |
+| Luxury / bespoke | £32,000 – £58,000+ | £37,500 – £67,000+ |
+
+*All prices exclude VAT. Add 20% for the VAT-inclusive total.*
+
+---
+
+## Liverpool & Merseyside Market
+
+**Below national average.** Liverpool's labour multiplier of 0.88× means kitchen renovation costs are consistently below the national average. Kitchen fitters charge £155–£220/day, plumbers and electricians £32–£50/hour.
+
+**Good fitter availability.** Merseyside has a healthy pool of experienced kitchen fitters, keeping wait times short and pricing competitive.
+
+**Baltic Triangle & Anfield regeneration.** Ongoing regeneration in the Baltic Triangle and Anfield areas is driving demand for kitchen renovations, particularly in new-build apartments and renovated Victorian properties.
+
+**Strong terraced housing stock.** Liverpool has a large stock of Victorian and Edwardian terraced houses — a housing type that keeps kitchen fitters busy and experienced.
+
+---
+
+## Liverpool Area Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| Formby, Crosby, Blundellsands | +10–20% |
+| Woolton, Childwall, Allerton | +5–10% |
+| City centre apartments | +5–10% (access premium) |
+| Aigburth, Mossley Hill | Standard to +5% |
+| Walton, Anfield, Everton | -5 to -10% |
+| Birkenhead, St Helens | -5 to -10% |
+
+---
+
+## Liverpool Kitchen Renovation Cost Breakdown (mid-range, 10–12m²)
+
+| Component | Cost range (£, exc. VAT) |
+|---|---|
+| Kitchen units (rigid, trade supplier) | £2,800 – £7,000 |
+| Labour (fitting, 2–3 weeks) | £2,000 – £4,500 |
+| Quartz worktop | £1,000 – £2,500 |
+| Appliances | £1,000 – £3,000 |
+| Flooring | £450 – £1,200 |
+| Plumbing & electrics | £650 – £1,700 |
+| Tiling & decoration | £350 – £1,100 |
+| Skip hire | £180 – £300 |
+| **Total** | **£8,500 – £22,000** |
+
+*All prices exclude VAT. Add 20% for the VAT-inclusive total.*
+
+---
+
+## UK Compliance Reminders
+
+**Gas Safe registration.** Any gas work (moving a cooker or gas supply) must be carried out by a Gas Safe registered engineer.
+
+**Part P (electrical).** New electrical circuits in the kitchen must comply with Part P of the Building Regulations — use a Part P registered electrician or obtain Building Control sign-off.`,
+    faqs: [
+      {
+        question: 'How much does a kitchen renovation cost in Liverpool in 2026?',
+        answer: 'Mid-range kitchen renovations in Liverpool typically cost £8,500–£22,000 exc. VAT. Add 20% for the VAT-inclusive total. Formby and Crosby run 10–20% above the Liverpool average.',
+      },
+      {
+        question: 'Is Liverpool cheaper than Manchester for a kitchen renovation?',
+        answer: 'Yes, slightly. Liverpool\'s labour multiplier is 0.88× vs Manchester\'s roughly national-average rates. Overall costs are typically 5–15% lower than Manchester for equivalent projects.',
+      },
+      {
+        question: 'Is the Liverpool kitchen market growing?',
+        answer: 'Yes. Regeneration in the Baltic Triangle and Anfield areas is driving demand, and Liverpool\'s relatively affordable property prices attract renovation-minded buyers.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/uk/kitchen-cost', label: 'Full UK Kitchen Cost Guide' },
+      { href: '/uk/manchester-kitchen-cost', label: 'Manchester Kitchen Cost' },
+      { href: '/uk/leeds-kitchen-renovation-cost', label: 'Leeds Kitchen Renovation Cost' },
+      { href: '/uk/glasgow-kitchen-renovation-cost', label: 'Glasgow Kitchen Renovation Cost' },
+      { href: '/uk', label: 'Kitchen Cost Calculator UK' },
+    ],
+  },
 ];
