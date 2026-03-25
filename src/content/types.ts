@@ -18,4 +18,12 @@ export interface SeoPageData {
   content: string;
   faqs: FaqItem[];
   relatedGuides: RelatedGuide[];
+  /** ISO date string (e.g. "2026-01-15"). Falls back to "2026-01-01" in schema. */
+  publishedAt?: string;
+  /** ISO date string. Falls back to today's date in schema. */
+  updatedAt?: string;
+  /** Page category for schema selection. Derived from slug if omitted. */
+  category?: 'pillar' | 'size' | 'geo' | 'informational';
+  /** Explicit HowTo steps. If absent, FAQ items are used as steps for informational pages. */
+  steps?: Array<{ name: string; text: string }>;
 }
