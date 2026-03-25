@@ -3,6 +3,7 @@
 import EstimatorWizard from '@/components/EstimatorWizard';
 import Navbar from '@/components/Navbar';
 import { localeData, type LocaleKey } from '@/lib/localeData';
+import { guidesPath } from '@/lib/guideCategories';
 
 function TealCheck() {
   return (
@@ -345,6 +346,7 @@ export default function HomePage({ localeKey }: { localeKey: LocaleKey }) {
                 <li><a href="#costs" className="transition-colors hover:text-white">Cost Guide</a></li>
                 <li><a href="#tips" className="transition-colors hover:text-white">Tips</a></li>
                 <li><a href="#faq" className="transition-colors hover:text-white">FAQ</a></li>
+                <li><a href={guidesPath(localeKey)} className="transition-colors hover:text-white">Guides</a></li>
               </ul>
             </div>
             {/* Col 3: Tools */}

@@ -1,6 +1,7 @@
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import RegionSwitcher from '@/components/RegionSwitcher';
 import type { SeoPageData } from '@/content/types';
+import { guidesPath } from '@/lib/guideCategories';
 
 function BreadcrumbSchema({ items }: { items: Array<{ name: string; url: string }> }) {
   const schema = {
@@ -63,6 +64,12 @@ function SeoNavbar({ locale }: { locale: string }) {
             className="hidden text-sm font-medium text-mid transition-colors hover:text-teal-primary sm:block"
           >
             Cost Guide
+          </a>
+          <a
+            href={guidesPath(locale as 'us' | 'uk' | 'ca')}
+            className="hidden text-sm font-medium text-mid transition-colors hover:text-teal-primary sm:block"
+          >
+            Guides
           </a>
           <RegionSwitcher />
         </div>
