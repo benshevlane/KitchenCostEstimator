@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { localeData } from '@/lib/localeData';
+import { buildAlternates } from '@/lib/seoAlternates';
 import HomePage from '@/components/HomePage';
 
 const locale = localeData.ca;
@@ -7,7 +8,7 @@ const locale = localeData.ca;
 export const metadata: Metadata = {
   title: locale.metaTitle,
   description: locale.metaDescription,
-  alternates: { canonical: 'https://kitchencostestimator.com/ca' },
+  alternates: buildAlternates('ca'),
 };
 
 export default function CAPage() {

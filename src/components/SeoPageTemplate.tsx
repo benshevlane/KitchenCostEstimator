@@ -89,11 +89,27 @@ function buildBreadcrumbs(page: SeoPageData) {
   return items;
 }
 
+function CanonicalCheck() {
+  if (process.env.NODE_ENV !== 'development') return null;
+  return (
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
+          if (!document.querySelector('link[rel="canonical"]')) {
+            console.warn('[SEO] This page is missing a <link rel="canonical"> tag.');
+          }
+        `,
+      }}
+    />
+  );
+}
+
 export default function SeoPageTemplate({ page }: { page: SeoPageData }) {
   const breadcrumbs = buildBreadcrumbs(page);
 
   return (
     <>
+      <CanonicalCheck />
       <SchemaScripts page={page} />
       <SeoNavbar locale={page.locale} />
 
