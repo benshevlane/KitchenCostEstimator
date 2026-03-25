@@ -34,7 +34,7 @@ export function middleware(request: NextRequest) {
   if (localeCookie && ['uk', 'us', 'ca'].includes(localeCookie)) {
     const url = request.nextUrl.clone();
     url.pathname = `/${localeCookie}`;
-    return NextResponse.redirect(url, 302);
+    return NextResponse.redirect(url, { status: 301 });
   }
 
   // Try Vercel's geo headers first (most reliable on Vercel)
@@ -54,7 +54,7 @@ export function middleware(request: NextRequest) {
 
   const url = request.nextUrl.clone();
   url.pathname = `/${detectedLocale}`;
-  return NextResponse.redirect(url, 302);
+  return NextResponse.redirect(url, { status: 301 });
 }
 
 export const config = {

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getPage, getAllSlugs } from '@/content';
+import { buildAlternates } from '@/lib/seoAlternates';
 import SeoPageTemplate from '@/components/SeoPageTemplate';
 
 type Params = { slug: string };
@@ -16,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   return {
     title: page.meta.title,
     description: page.meta.description,
-    alternates: { canonical: `https://kitchencostestimator.com/${slug}` },
+    alternates: buildAlternates('us', slug),
   };
 }
 
