@@ -133,6 +133,10 @@ According to the National Association of Realtors and Remodeling Magazine's Cost
       { href: '/us/new-york-kitchen-remodel-cost', label: 'New York Kitchen Remodel Cost' },
       { href: '/us/los-angeles-kitchen-remodel-cost', label: 'Los Angeles Kitchen Remodel Cost' },
       { href: '/us/chicago-kitchen-remodel-cost', label: 'Chicago Kitchen Remodel Cost' },
+      { href: '/us/seattle-kitchen-remodel-cost', label: 'Seattle Kitchen Remodel Cost' },
+      { href: '/us/san-francisco-kitchen-remodel-cost', label: 'San Francisco Kitchen Remodel Cost' },
+      { href: '/us/boston-kitchen-remodel-cost', label: 'Boston Kitchen Remodel Cost' },
+      { href: '/us/denver-kitchen-remodel-cost', label: 'Denver Kitchen Remodel Cost' },
     ],
   },
   {
@@ -493,6 +497,407 @@ Kitchen remodel costs in Chicago average **$25,000 to $55,000** for a mid-range 
       { href: '/us/kitchen-remodel-cost', label: 'Full US Kitchen Remodel Cost Guide' },
       { href: '/us/new-york-kitchen-remodel-cost', label: 'New York Kitchen Remodel Cost' },
       { href: '/us/los-angeles-kitchen-remodel-cost', label: 'Los Angeles Kitchen Remodel Cost' },
+      { href: '/us/small-kitchen-remodel-cost', label: 'Small Kitchen Remodel Cost' },
+      { href: '/us', label: 'Kitchen Remodel Cost Calculator' },
+    ],
+  },
+  {
+    slug: 'seattle-kitchen-remodel-cost',
+    locale: 'us',
+    meta: {
+      title: 'Seattle Kitchen Remodel Cost: Local Prices & Guide (2026)',
+      description: 'Kitchen remodels in Seattle cost $28,000–$58,000 on average. Get a free personalized Seattle estimate with our calculator.',
+    },
+    content: `# Seattle Kitchen Remodel Cost — 2026 Guide
+
+Kitchen remodel costs in Seattle average **$28,000 to $58,000** for a mid-range renovation — approximately 30% above the national average. Seattle's booming tech economy, strong IKEA cabinet culture, and high demand for licensed contractors make it one of the pricier Pacific Northwest markets.
+
+[CALCULATOR EMBED]
+
+---
+
+## Seattle Kitchen Remodel Cost by Scope
+
+| Scope | Seattle cost ($) | US national avg |
+|---|---|---|
+| Minor refresh | $14,000 – $26,000 | $10,000 – $20,000 |
+| Mid-range remodel | $28,000 – $58,000 | $25,000 – $55,000 |
+| Major remodel | $55,000 – $100,000 | $55,000 – $100,000 |
+| Luxury / gut renovation | $95,000 – $200,000+ | $100,000 – $200,000+ |
+
+---
+
+## Why Seattle Kitchen Remodels Cost More
+
+**Labor rates.** Seattle trades charge $80–$140/hour for licensed plumbers and electricians. The tech-sector boom has driven housing demand and pushed contractor rates up — general contractor markups run 18–25%.
+
+**IKEA culture.** Seattle has a strong IKEA Sektion cabinet culture, which can reduce material costs by 30–50% compared to semi-custom options. However, IKEA kitchen installation requires experienced fitters, and labor for flat-pack assembly offsets some savings.
+
+**Tech-sector demand.** High homeownership rates among tech workers in King County fuel steady remodeling demand. Contractors are frequently booked 6–10 weeks out during peak season (May–October).
+
+**Permit timeline.** Seattle Department of Construction & Inspections (SDCI) processes permits online, but timelines run 3–6 weeks for standard kitchen permits involving plumbing or electrical changes.
+
+---
+
+## Seattle Neighborhood Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| Capitol Hill, Queen Anne, Ballard | Baseline (Seattle avg) |
+| Wallingford, Fremont, Green Lake | Baseline to +5% |
+| Bellevue, Mercer Island | +5–10% |
+| Kirkland, Redmond | +5–10% |
+| West Seattle, Columbia City | -5 to -10% |
+| Renton, Federal Way | -10–20% |
+| Tacoma | -15–25% |
+
+---
+
+## Seattle Kitchen Remodel Cost Breakdown (mid-range, 100–140 sq ft)
+
+| Component | Cost range ($) |
+|---|---|
+| Cabinets (IKEA Sektion or semi-custom) | $6,000 – $16,000 |
+| Labor (GC + trades) | $6,000 – $14,000 |
+| Countertops (quartz) | $2,500 – $7,000 |
+| Appliances | $3,000 – $8,000 |
+| Flooring | $1,200 – $4,000 |
+| Plumbing | $1,000 – $3,500 |
+| Electrical | $1,000 – $3,500 |
+| Backsplash | $700 – $2,200 |
+| Permits | $300 – $2,000 |
+| **Total** | **$28,000 – $58,000** |
+
+---
+
+## Seattle Permits & Regulations
+
+**SDCI online permits.** Seattle Department of Construction & Inspections (SDCI) handles all residential permits. Applications are filed online through the Seattle Services Portal. Standard permit processing takes 3–6 weeks; simple trade permits (plumbing or electrical only) may be issued faster.
+
+**When you need a permit.** Permits are required for plumbing changes, new electrical circuits, gas line work, and structural modifications. Cabinet replacement, countertops, and cosmetic work typically do not require permits.
+
+**Washington State contractor registration.** All contractors must be registered with Washington State Department of Labor & Industries (L&I) and carry a surety bond. Verify registration at the L&I contractor lookup tool.`,
+    faqs: [
+      {
+        question: 'How much does a kitchen remodel cost in Seattle in 2026?',
+        answer: 'Mid-range kitchen remodels in Seattle typically cost $28,000–$58,000 — about 30% above the national average. Bellevue and Mercer Island run 5–10% higher than the Seattle baseline, while Renton and Federal Way are 10–20% lower.',
+      },
+      {
+        question: 'How long does a kitchen permit take in Seattle?',
+        answer: 'Seattle SDCI processes standard kitchen remodel permits in 3–6 weeks. Simple trade permits (plumbing or electrical only) may be faster. Applications are filed online through the Seattle Services Portal.',
+      },
+      {
+        question: 'Is IKEA a good option for Seattle kitchen cabinets?',
+        answer: 'Seattle has a strong IKEA cabinet culture and the IKEA Renton store is a popular source. IKEA Sektion cabinets can save 30–50% on materials vs semi-custom, but factor in $3,000–$8,000 for professional installation of a full kitchen.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/us/kitchen-remodel-cost', label: 'Full US Kitchen Remodel Cost Guide' },
+      { href: '/us/san-francisco-kitchen-remodel-cost', label: 'San Francisco Kitchen Remodel Cost' },
+      { href: '/us/los-angeles-kitchen-remodel-cost', label: 'Los Angeles Kitchen Remodel Cost' },
+      { href: '/us/small-kitchen-remodel-cost', label: 'Small Kitchen Remodel Cost' },
+      { href: '/us', label: 'Kitchen Remodel Cost Calculator' },
+    ],
+  },
+  {
+    slug: 'san-francisco-kitchen-remodel-cost',
+    locale: 'us',
+    meta: {
+      title: 'San Francisco Kitchen Remodel Cost: Bay Area Prices & Guide (2026)',
+      description: 'Kitchen remodels in San Francisco cost $35,000–$95,000 on average — the highest in the US. Get a free personalized Bay Area estimate with our calculator.',
+    },
+    content: `# San Francisco Kitchen Remodel Cost — 2026 Guide
+
+Kitchen remodel costs in San Francisco average **$35,000 to $95,000** for a mid-range renovation — approximately 65% above the national average. San Francisco is the most expensive kitchen remodel market in the US, driven by union labor rates, lengthy permit timelines, and extreme contractor demand.
+
+[CALCULATOR EMBED]
+
+---
+
+## San Francisco Kitchen Remodel Cost by Scope
+
+| Scope | SF / Bay Area cost ($) | US national avg |
+|---|---|---|
+| Minor refresh | $20,000 – $35,000 | $10,000 – $20,000 |
+| Mid-range remodel | $35,000 – $75,000 | $25,000 – $55,000 |
+| Major remodel | $70,000 – $130,000 | $55,000 – $100,000 |
+| Luxury / gut renovation | $120,000 – $300,000+ | $100,000 – $200,000+ |
+
+---
+
+## Why San Francisco Is the Most Expensive US Market
+
+**Labor rates.** SF trades are the highest-paid in the US. Licensed plumbers charge $110–$185/hour, electricians $100–$170/hour. Union labor is the norm for most significant residential projects, adding 15–25% over non-union rates.
+
+**CSLB licensing.** California requires a CSLB Class B General Building contractor license (or C-61/D-24 Kitchen & Bath specialty) for projects over $500. Always verify licenses through the Contractors State License Board.
+
+**Permit timelines.** San Francisco Department of Building Inspection (SF DBI) permit processing runs 6–12 weeks for kitchen remodels involving plumbing or electrical changes. Over-the-counter permits are available for simple trade work but are limited in scope.
+
+**Access and logistics.** San Francisco's dense neighborhoods, steep hills, limited parking, and narrow Victorian-era homes create significant access challenges. Contractors often charge parking/access premiums of $500–$2,000 for projects in neighborhoods like Nob Hill, Russian Hill, and Pacific Heights.
+
+**Union labor market.** The Bay Area has one of the strongest union construction markets in the US. Union plumbers, electricians, and carpenters command premium rates but offer consistent training and code compliance.
+
+---
+
+## Bay Area Neighborhood Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| SF core (Pacific Heights, Nob Hill, Marina) | Baseline (SF avg) |
+| SF outer (Sunset, Richmond, Excelsior) | -5 to -10% |
+| Silicon Valley (Palo Alto, Mountain View, Los Altos) | +5–10% |
+| Peninsula (San Mateo, Burlingame, Redwood City) | Standard to +5% |
+| East Bay (Oakland, Berkeley) | -10–15% |
+| East Bay (Fremont, Hayward, Concord) | -15–25% |
+| North Bay (Marin County) | +5–15% |
+
+---
+
+## San Francisco Kitchen Remodel Cost Breakdown (mid-range, 80–130 sq ft)
+
+| Component | Cost range ($) |
+|---|---|
+| Cabinets (semi-custom or IKEA) | $8,000 – $22,000 |
+| Labor (GC + trades) | $8,000 – $20,000 |
+| Countertops (quartz or marble) | $3,000 – $9,000 |
+| Appliances | $3,500 – $10,000 |
+| Flooring | $1,500 – $5,000 |
+| Plumbing | $1,500 – $5,000 |
+| Electrical | $1,500 – $5,000 |
+| Backsplash | $800 – $2,500 |
+| Permits | $500 – $4,000 |
+| **Total** | **$35,000 – $75,000** |
+
+---
+
+## San Francisco Permits & Regulations
+
+**SF DBI permits.** The San Francisco Department of Building Inspection (SF DBI) handles all residential building permits. Kitchen remodels involving plumbing, electrical, or gas changes require a permit. Processing times run 6–12 weeks — plan accordingly.
+
+**Over-the-counter permits.** Simple trade permits (e.g., replacing a water heater or upgrading a panel) may qualify for over-the-counter processing at SF DBI, which is significantly faster.
+
+**Title 24 Energy Code.** California's Title 24 requires energy-efficient lighting (LED), ENERGY STAR appliances, and may mandate additional insulation during a major remodel.
+
+**CSLB license verification.** Always verify your contractor's license at the CSLB website. A valid C-61/D-24 or B license is required for kitchen remodeling work in California.`,
+    faqs: [
+      {
+        question: 'How much does a kitchen remodel cost in San Francisco in 2026?',
+        answer: 'Mid-range kitchen remodels in San Francisco typically cost $35,000–$75,000, making it the most expensive US market. Silicon Valley and Marin County are 5–15% higher still; East Bay cities like Oakland and Berkeley are 10–15% lower.',
+      },
+      {
+        question: 'How long does a kitchen permit take in San Francisco?',
+        answer: 'SF DBI permit processing takes 6–12 weeks for kitchen remodels involving plumbing or electrical changes. Simple trade permits may qualify for faster over-the-counter processing. Factor permit timelines into your project schedule from the start.',
+      },
+      {
+        question: 'Why is San Francisco the most expensive city for kitchen remodels?',
+        answer: 'SF combines the highest union labor rates in the US, lengthy 6–12 week permit timelines, dense urban access challenges with parking/logistics premiums, and extreme contractor demand driven by the tech economy. All of these factors push costs 50–65% above the national average.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/us/kitchen-remodel-cost', label: 'Full US Kitchen Remodel Cost Guide' },
+      { href: '/us/seattle-kitchen-remodel-cost', label: 'Seattle Kitchen Remodel Cost' },
+      { href: '/us/los-angeles-kitchen-remodel-cost', label: 'Los Angeles Kitchen Remodel Cost' },
+      { href: '/us/small-kitchen-remodel-cost', label: 'Small Kitchen Remodel Cost' },
+      { href: '/us', label: 'Kitchen Remodel Cost Calculator' },
+    ],
+  },
+  {
+    slug: 'boston-kitchen-remodel-cost',
+    locale: 'us',
+    meta: {
+      title: 'Boston Kitchen Remodel Cost: Local Prices & Guide (2026)',
+      description: 'Kitchen remodels in Boston cost $27,000–$62,000 on average. Get a free personalized Boston estimate with our calculator.',
+    },
+    content: `# Boston Kitchen Remodel Cost — 2026 Guide
+
+Kitchen remodel costs in Boston average **$27,000 to $62,000** for a mid-range renovation — approximately 25% above the national average. Boston's older housing stock, strong union labor market, and high demand in historic neighborhoods like Back Bay and Beacon Hill make it one of the more expensive East Coast markets.
+
+[CALCULATOR EMBED]
+
+---
+
+## Boston Kitchen Remodel Cost by Scope
+
+| Scope | Boston cost ($) | US national avg |
+|---|---|---|
+| Minor refresh | $14,000 – $26,000 | $10,000 – $20,000 |
+| Mid-range remodel | $27,000 – $55,000 | $25,000 – $55,000 |
+| Major remodel | $52,000 – $100,000 | $55,000 – $100,000 |
+| Luxury / gut renovation | $95,000 – $220,000+ | $100,000 – $200,000+ |
+
+---
+
+## Why Boston Kitchen Remodels Cost More
+
+**Strong union market.** Boston has one of the strongest union construction markets on the East Coast. Union plumbers charge $90–$155/hour, electricians $85–$145/hour. Most reputable contractors in the Boston metro use union or union-trained labor.
+
+**Older housing stock.** Boston's housing is among the oldest in the US — triple-deckers, brownstones, and colonial-era homes dominate many neighborhoods. Older homes frequently require discovery work including electrical panel upgrades, lead paint abatement, and plumbing replacement.
+
+**Electrical panel upgrades.** Pre-1960 homes often have 60–100 amp panels that cannot support modern kitchen loads (induction cooktops, double ovens, dishwashers). Panel upgrades to 200 amps cost $2,000–$5,000 and are a common add-on in Boston kitchen remodels.
+
+**Historic district restrictions.** Back Bay, Beacon Hill, and other historic neighborhoods have additional review requirements through the Boston Landmarks Commission that can extend timelines and limit exterior changes.
+
+---
+
+## Boston Neighborhood Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| Back Bay, Beacon Hill | +30–45% |
+| South End, Charlestown | +20–30% |
+| Cambridge, Brookline | +15–25% |
+| Jamaica Plain, Somerville | +5–15% |
+| Dorchester, Roxbury | Standard |
+| Quincy, Braintree, Weymouth | -5 to -10% |
+| Worcester, Lowell | -20–30% |
+
+---
+
+## Boston Kitchen Remodel Cost Breakdown (mid-range, 90–130 sq ft)
+
+| Component | Cost range ($) |
+|---|---|
+| Cabinets (semi-custom) | $6,500 – $17,000 |
+| Labor (GC + trades) | $6,000 – $14,000 |
+| Countertops (quartz) | $2,500 – $7,000 |
+| Appliances | $3,000 – $8,000 |
+| Flooring | $1,200 – $4,000 |
+| Plumbing | $1,200 – $4,000 |
+| Electrical (incl. potential panel upgrade) | $1,500 – $5,000 |
+| Backsplash | $700 – $2,200 |
+| Permits | $300 – $1,500 |
+| **Total** | **$27,000 – $55,000** |
+
+---
+
+## Boston Permits & Regulations
+
+**City of Boston ISD.** The Inspectional Services Department (ISD) handles building permits for kitchen remodels in Boston. Permits are required for plumbing, electrical, and structural changes. Standard processing takes 2–4 weeks.
+
+**MA contractor registration.** Massachusetts requires all home improvement contractors to register with the Office of Consumer Affairs and Business Regulation. Verify registration before hiring — unregistered contractors cannot legally perform residential work over $1,000.
+
+**Lead paint.** Massachusetts has strict lead paint laws. Homes built before 1978 may require a licensed lead inspector and deleading if children under 6 are present. Lead abatement adds $1,500–$5,000 to a kitchen remodel.
+
+**Historic districts.** If your home is in a local historic district (Back Bay, Beacon Hill, Bay Village), exterior changes visible from the street require Boston Landmarks Commission approval.`,
+    faqs: [
+      {
+        question: 'How much does a kitchen remodel cost in Boston in 2026?',
+        answer: 'Mid-range kitchen remodels in Boston typically cost $27,000–$55,000 — about 25% above the national average. Back Bay and Beacon Hill run 30–45% above the Boston average; suburbs like Quincy and Braintree are 5–10% below.',
+      },
+      {
+        question: 'Do older Boston homes need electrical panel upgrades for a kitchen remodel?',
+        answer: 'Very commonly, yes. Pre-1960 homes often have 60–100 amp panels that cannot handle modern kitchen loads. Upgrading to a 200 amp panel costs $2,000–$5,000 and is one of the most common add-ons in Boston kitchen remodels.',
+      },
+      {
+        question: 'How do I verify a contractor is registered in Massachusetts?',
+        answer: 'Check the MA Office of Consumer Affairs and Business Regulation website. All home improvement contractors must be registered to legally perform residential work over $1,000 in Massachusetts.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/us/kitchen-remodel-cost', label: 'Full US Kitchen Remodel Cost Guide' },
+      { href: '/us/new-york-kitchen-remodel-cost', label: 'New York Kitchen Remodel Cost' },
+      { href: '/us/san-francisco-kitchen-remodel-cost', label: 'San Francisco Kitchen Remodel Cost' },
+      { href: '/us/small-kitchen-remodel-cost', label: 'Small Kitchen Remodel Cost' },
+      { href: '/us', label: 'Kitchen Remodel Cost Calculator' },
+    ],
+  },
+  {
+    slug: 'denver-kitchen-remodel-cost',
+    locale: 'us',
+    meta: {
+      title: 'Denver Kitchen Remodel Cost: Local Prices & Guide (2026)',
+      description: 'Kitchen remodels in Denver cost $24,000–$55,000 on average. Get a free personalized Denver estimate with our calculator.',
+    },
+    content: `# Denver Kitchen Remodel Cost — 2026 Guide
+
+Kitchen remodel costs in Denver average **$24,000 to $55,000** for a mid-range renovation — approximately 15% above the national average. Denver's fast-growing housing market and strong contractor demand keep prices above Midwest averages, though well below coastal cities.
+
+[CALCULATOR EMBED]
+
+---
+
+## Denver Kitchen Remodel Cost by Scope
+
+| Scope | Denver cost ($) | US national avg |
+|---|---|---|
+| Minor refresh | $12,000 – $23,000 | $10,000 – $20,000 |
+| Mid-range remodel | $24,000 – $50,000 | $25,000 – $55,000 |
+| Major remodel | $48,000 – $95,000 | $55,000 – $100,000 |
+| Luxury / gut renovation | $90,000 – $185,000+ | $100,000 – $200,000+ |
+
+---
+
+## Why Denver Kitchen Remodel Costs Are Rising
+
+**Fast-growing market.** Denver's population boom over the past decade has driven sustained remodeling demand. Contractors are often booked 6–10 weeks out, especially during the busy spring/summer season.
+
+**Labor rates.** Denver trades charge $70–$120/hour for licensed plumbers and electricians — lower than coastal cities but above the national average. General contractor markups run 15–22%.
+
+**New construction competition.** The Front Range building boom competes with remodelers for the same labor pool, keeping trade rates elevated.
+
+**Altitude and climate considerations.** Denver's dry climate and 5,280-foot altitude can affect material choices — solid wood cabinets may need extra acclimation time, and humidity-sensitive materials require careful selection.
+
+---
+
+## Denver Neighborhood Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| Cherry Creek, Washington Park | +10–20% |
+| Highland, LoHi, RiNo | +10–15% |
+| Park Hill, Congress Park | +5–10% |
+| Capitol Hill, Baker | Standard |
+| Stapleton/Central Park, Green Valley Ranch | Standard |
+| Aurora, Lakewood | -5–10% |
+| Thornton, Westminster, Arvada | -5–10% |
+| Colorado Springs | -15–20% |
+
+---
+
+## Denver Kitchen Remodel Cost Breakdown (mid-range, 100–140 sq ft)
+
+| Component | Cost range ($) |
+|---|---|
+| Cabinets (semi-custom) | $6,000 – $15,000 |
+| Labor (GC + trades) | $5,000 – $12,000 |
+| Countertops (quartz) | $2,200 – $6,500 |
+| Appliances | $3,000 – $8,000 |
+| Flooring | $1,100 – $3,500 |
+| Plumbing | $1,000 – $3,000 |
+| Electrical | $1,000 – $3,000 |
+| Backsplash | $600 – $2,000 |
+| Permits | $250 – $1,200 |
+| **Total** | **$24,000 – $50,000** |
+
+---
+
+## Denver Permits & Regulations
+
+**Denver Community Planning and Development.** The city's Community Planning and Development (CPD) department handles building permits. Kitchen remodels involving plumbing, electrical, or structural changes require a permit. Standard processing takes 2–4 weeks.
+
+**DORA registration.** Colorado's Department of Regulatory Agencies (DORA) oversees contractor licensing. Electricians and plumbers must hold state licenses. General contractors are not required to hold a state license, but Denver requires a Denver contractor license for work within city limits.
+
+**Verify your contractor.** Check DORA's online license lookup for electricians and plumbers. For general contractors, verify their Denver contractor license through the city's online portal.
+
+**HOA considerations.** Many Denver-area homes are in HOA communities, especially in newer suburbs. Check CC&Rs before starting exterior-visible work like window replacements as part of a kitchen remodel.`,
+    faqs: [
+      {
+        question: 'How much does a kitchen remodel cost in Denver in 2026?',
+        answer: 'Mid-range kitchen remodels in Denver typically cost $24,000–$50,000 — about 15% above the national average. Cherry Creek and Washington Park run 10–20% above the Denver average; Aurora and Lakewood are 5–10% below.',
+      },
+      {
+        question: 'How far out are Denver contractors booked?',
+        answer: 'Denver contractors are frequently booked 6–10 weeks out, especially during peak season (April–October). Start getting quotes 2–3 months before your desired start date for the best selection.',
+      },
+      {
+        question: 'Do I need a contractor license for a kitchen remodel in Denver?',
+        answer: 'General contractors need a Denver contractor license for work within city limits. Electricians and plumbers must hold Colorado state licenses through DORA. Always verify licenses before hiring.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/us/kitchen-remodel-cost', label: 'Full US Kitchen Remodel Cost Guide' },
+      { href: '/us/chicago-kitchen-remodel-cost', label: 'Chicago Kitchen Remodel Cost' },
+      { href: '/us/seattle-kitchen-remodel-cost', label: 'Seattle Kitchen Remodel Cost' },
       { href: '/us/small-kitchen-remodel-cost', label: 'Small Kitchen Remodel Cost' },
       { href: '/us', label: 'Kitchen Remodel Cost Calculator' },
     ],
