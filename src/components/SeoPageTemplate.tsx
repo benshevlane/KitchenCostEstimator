@@ -2,45 +2,20 @@ import MarkdownRenderer from '@/components/MarkdownRenderer';
 import RegionSwitcher from '@/components/RegionSwitcher';
 import type { SeoPageData } from '@/content/types';
 import { guidesPath } from '@/lib/guideCategories';
+import { getSchemaMarkup } from '@/lib/schemaMarkup';
 
-function BreadcrumbSchema({ items }: { items: Array<{ name: string; url: string }> }) {
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: items.map((item, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      name: item.name,
-      item: `https://kitchencostestimator.com${item.url}`,
-    })),
-  };
+function SchemaScripts({ page }: { page: SeoPageData }) {
+  const schemas = getSchemaMarkup(page);
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
-}
-
-function FaqSchema({ faqs }: { faqs: SeoPageData['faqs'] }) {
-  if (faqs.length === 0) return null;
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: faqs.map((faq) => ({
-      '@type': 'Question',
-      name: faq.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: faq.answer,
-      },
-    })),
-  };
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
+    <>
+      {schemas.map((schema, i) => (
+        <script
+          key={`schema-${String(schema['@type'])}-${i}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+    </>
   );
 }
 
@@ -119,8 +94,7 @@ export default function SeoPageTemplate({ page }: { page: SeoPageData }) {
 
   return (
     <>
-      <BreadcrumbSchema items={breadcrumbs} />
-      <FaqSchema faqs={page.faqs} />
+      <SchemaScripts page={page} />
       <SeoNavbar locale={page.locale} />
 
       <main className="mx-auto max-w-3xl px-4 pt-8 pb-16 sm:px-6">
