@@ -902,4 +902,414 @@ Kitchen remodel costs in Denver average **$24,000 to $55,000** for a mid-range r
       { href: '/us', label: 'Kitchen Remodel Cost Calculator' },
     ],
   },
+  {
+    slug: 'houston-kitchen-remodel-cost',
+    locale: 'us',
+    meta: {
+      title: 'Houston Kitchen Remodel Cost: Local Prices & Guide (2026)',
+      description: 'Kitchen remodels in Houston cost $19,000–$48,000 on average. Get a free personalized Houston estimate with our calculator.',
+    },
+    content: `# Houston Kitchen Remodel Cost — 2026 Guide
+
+Kitchen remodel costs in Houston average **$19,000 to $48,000** for a mid-range renovation — approximately 8% below the national average. Houston's lower labor rates (0.92× the national average) and no state income tax make it one of the more affordable major metros for kitchen renovations.
+
+[CALCULATOR EMBED]
+
+---
+
+## Houston Kitchen Remodel Cost by Scope
+
+| Scope | Houston cost ($) | US national avg |
+|---|---|---|
+| Minor refresh | $8,000 – $18,000 | $10,000 – $20,000 |
+| Mid-range remodel | $19,000 – $48,000 | $25,000 – $55,000 |
+| Major remodel | $45,000 – $85,000 | $55,000 – $100,000 |
+| Luxury / gut renovation | $80,000 – $170,000+ | $100,000 – $200,000+ |
+
+---
+
+## Why Houston Kitchen Remodels Cost Less
+
+**Below-average labor rates.** Houston trades charge $55–$95/hour for licensed plumbers and electricians — well below coastal cities. General contractor markups run 12–18%, keeping overall project costs in check.
+
+**No state income tax.** Texas has no state income tax, which indirectly keeps trade labor costs competitive and leaves homeowners with more take-home pay for renovations.
+
+**Strong contractor availability.** Houston's massive construction industry means you'll find plenty of qualified contractors. Lead times are typically 3–6 weeks, shorter than most major metros.
+
+**Humidity is a critical factor.** Houston's subtropical climate means high humidity year-round. Moisture-resistant materials are essential — choose LVP over hardwood flooring, porcelain tile over natural stone, and ensure proper ventilation. Mold-resistant drywall is a smart investment for any Houston kitchen.
+
+---
+
+## Houston Area Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| River Oaks, West University Place | +15–25% |
+| The Heights, Montrose | +10–15% |
+| Memorial, Tanglewood | +10–15% |
+| Katy, Sugar Land | +5–10% |
+| Pearland, League City | Standard |
+| Spring, The Woodlands | Standard to +5% |
+| Pasadena, Baytown | -5–10% |
+| Conroe, Humble | -10–15% |
+
+---
+
+## Houston Kitchen Remodel Cost Breakdown (mid-range, 100–140 sq ft)
+
+| Component | Cost range ($) |
+|---|---|
+| Cabinets (semi-custom) | $5,000 – $13,000 |
+| Labor (GC + trades) | $4,000 – $10,000 |
+| Countertops (quartz) | $2,000 – $5,500 |
+| Appliances | $3,000 – $8,000 |
+| Flooring (LVP recommended) | $1,000 – $3,000 |
+| Plumbing | $800 – $2,500 |
+| Electrical | $800 – $2,500 |
+| Backsplash | $500 – $1,800 |
+| Permits | $200 – $900 |
+| **Total** | **$19,000 – $48,000** |
+
+---
+
+## Houston Permits & Regulations
+
+**City of Houston permitting.** Houston requires building permits for kitchen remodels involving plumbing, electrical, or structural changes. The city is known for fast permit processing — expect 1–2 weeks for standard residential kitchen permits, with fees ranging from $200 to $900.
+
+**No statewide contractor license.** Texas does not require a statewide general contractor license. However, plumbers and electricians must hold state licenses. Always verify local licensing requirements and check references carefully when hiring a GC.
+
+**Verify locally.** Since Texas lacks a statewide GC license, due diligence is on you. Check with the Texas Department of Licensing and Regulation (TDLR) for trade-specific licenses and verify your contractor's insurance and bonding independently.
+
+**HOA and deed restrictions.** Many Houston neighborhoods have deed restrictions or HOAs that may affect exterior-visible kitchen changes like window modifications or venting. Check before starting work.`,
+    faqs: [
+      {
+        question: 'How much does a kitchen remodel cost in Houston in 2026?',
+        answer: 'Mid-range kitchen remodels in Houston typically cost $19,000–$48,000 — about 8% below the national average. River Oaks and West University Place run 15–25% above the Houston average; Pasadena and Baytown are 5–10% below.',
+      },
+      {
+        question: 'Do I need a permit for a kitchen remodel in Houston?',
+        answer: 'Yes, Houston requires building permits for kitchen remodels involving plumbing, electrical, or structural changes. Permits cost $200–$900 and are typically processed in 1–2 weeks — among the fastest in major US cities.',
+      },
+      {
+        question: 'What materials work best for Houston kitchens?',
+        answer: 'Houston\'s high humidity makes moisture-resistant materials essential. Choose LVP over hardwood flooring, porcelain tile over natural stone, and consider mold-resistant drywall. Proper kitchen ventilation is critical to prevent moisture buildup.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/us/kitchen-remodel-cost', label: 'Full US Kitchen Remodel Cost Guide' },
+      { href: '/us/dallas-kitchen-remodel-cost', label: 'Dallas Kitchen Remodel Cost' },
+      { href: '/us/miami-kitchen-remodel-cost', label: 'Miami Kitchen Remodel Cost' },
+      { href: '/us/small-kitchen-remodel-cost', label: 'Small Kitchen Remodel Cost' },
+      { href: '/us', label: 'Kitchen Remodel Cost Calculator' },
+    ],
+  },
+  {
+    slug: 'dallas-kitchen-remodel-cost',
+    locale: 'us',
+    meta: {
+      title: 'Dallas Kitchen Remodel Cost: Local Prices & Guide (2026)',
+      description: 'Kitchen remodels in Dallas cost $19,000–$48,000 on average. Get a free personalized Dallas estimate with our calculator.',
+    },
+    content: `# Dallas Kitchen Remodel Cost — 2026 Guide
+
+Kitchen remodel costs in Dallas average **$19,000 to $48,000** for a mid-range renovation — approximately 8% below the national average. Like the rest of Texas, Dallas benefits from no state income tax and competitive labor rates (0.92× the national average), though the sprawling DFW metroplex means costs vary significantly by municipality.
+
+[CALCULATOR EMBED]
+
+---
+
+## Dallas Kitchen Remodel Cost by Scope
+
+| Scope | Dallas cost ($) | US national avg |
+|---|---|---|
+| Minor refresh | $8,000 – $18,000 | $10,000 – $20,000 |
+| Mid-range remodel | $19,000 – $48,000 | $25,000 – $55,000 |
+| Major remodel | $45,000 – $85,000 | $55,000 – $100,000 |
+| Luxury / gut renovation | $80,000 – $170,000+ | $100,000 – $200,000+ |
+
+---
+
+## What Drives Dallas Kitchen Remodel Costs
+
+**No state income tax.** Texas's lack of state income tax keeps contractor overhead lower and leaves homeowners with more budget for renovations. This is a meaningful advantage over states like California or New York.
+
+**DFW metroplex complexity.** The Dallas–Fort Worth metroplex spans dozens of municipalities, each with its own permit requirements, fees, and inspection processes. A remodel in Dallas proper follows different rules than one in Plano, Frisco, or Arlington.
+
+**Suburb premiums.** Affluent DFW suburbs command significant premiums. Frisco, Plano, and Southlake typically run 5–15% above Dallas proper due to higher home values and homeowner expectations for premium finishes.
+
+**No statewide contractor license.** Texas does not require a statewide general contractor license. While this keeps costs competitive, it also means more due diligence is needed when hiring. Always verify trade-specific licenses for plumbers and electricians.
+
+---
+
+## DFW Metroplex Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| Southlake, Westlake | +15–25% |
+| Highland Park, University Park | +15–25% |
+| Frisco, Prosper | +10–15% |
+| Plano, Allen | +5–15% |
+| McKinney, Celina | +5–10% |
+| Dallas proper (central) | Standard |
+| Richardson, Garland | Standard |
+| Arlington, Grand Prairie | -5–10% |
+| Mesquite, Balch Springs | -10–15% |
+| Denton, Lewisville | -5–10% |
+
+---
+
+## Dallas Kitchen Remodel Cost Breakdown (mid-range, 100–140 sq ft)
+
+| Component | Cost range ($) |
+|---|---|
+| Cabinets (semi-custom) | $5,000 – $13,000 |
+| Labor (GC + trades) | $4,000 – $10,000 |
+| Countertops (quartz) | $2,000 – $5,500 |
+| Appliances | $3,000 – $8,000 |
+| Flooring | $1,000 – $3,000 |
+| Plumbing | $800 – $2,500 |
+| Electrical | $800 – $2,500 |
+| Backsplash | $500 – $1,800 |
+| Permits | $200 – $900 |
+| **Total** | **$19,000 – $48,000** |
+
+---
+
+## Dallas Permits & Regulations
+
+**Municipal permit variations.** Each city in the DFW metroplex has its own permitting process. Dallas proper uses the Oak Cliff and downtown permit offices; Plano, Frisco, and other suburbs each have their own building departments. Always check with your specific municipality before starting work.
+
+**No statewide contractor license.** Texas does not require a statewide general contractor license. Plumbers and electricians must hold state licenses through the Texas Department of Licensing and Regulation (TDLR). Verify trade licenses before hiring.
+
+**Permit timelines.** Dallas-area permits are generally processed quickly — expect 1–3 weeks depending on the municipality and project scope. Some suburbs like Frisco offer expedited residential permit processing.
+
+**HOA prevalence.** The DFW suburbs are heavily HOA-governed. Frisco, Plano, McKinney, and most newer developments have HOA requirements that may affect kitchen renovations, especially changes visible from the exterior.`,
+    faqs: [
+      {
+        question: 'How much does a kitchen remodel cost in Dallas in 2026?',
+        answer: 'Mid-range kitchen remodels in Dallas typically cost $19,000–$48,000 — about 8% below the national average. Affluent suburbs like Southlake and Highland Park run 15–25% above Dallas proper; Arlington and Grand Prairie are 5–10% below.',
+      },
+      {
+        question: 'Do permit requirements differ across the DFW metroplex?',
+        answer: 'Yes, significantly. Each municipality in the DFW metroplex has its own permitting office, fees, and inspection requirements. A remodel in Dallas proper follows different rules than one in Plano, Frisco, or Arlington. Always check with your specific city\'s building department.',
+      },
+      {
+        question: 'Why are kitchen remodels more expensive in Frisco and Southlake?',
+        answer: 'Affluent DFW suburbs like Frisco, Plano, and Southlake run 5–15% above Dallas proper due to higher home values, larger kitchens, and homeowner expectations for premium finishes. Contractor demand is also strong in these fast-growing areas.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/us/kitchen-remodel-cost', label: 'Full US Kitchen Remodel Cost Guide' },
+      { href: '/us/houston-kitchen-remodel-cost', label: 'Houston Kitchen Remodel Cost' },
+      { href: '/us/phoenix-kitchen-remodel-cost', label: 'Phoenix Kitchen Remodel Cost' },
+      { href: '/us/small-kitchen-remodel-cost', label: 'Small Kitchen Remodel Cost' },
+      { href: '/us', label: 'Kitchen Remodel Cost Calculator' },
+    ],
+  },
+  {
+    slug: 'miami-kitchen-remodel-cost',
+    locale: 'us',
+    meta: {
+      title: 'Miami Kitchen Remodel Cost: Local Prices & Guide (2026)',
+      description: 'Kitchen remodels in Miami cost $22,000–$55,000 on average. Get a free personalized Miami estimate with our calculator.',
+    },
+    content: `# Miami Kitchen Remodel Cost — 2026 Guide
+
+Kitchen remodel costs in Miami average **$22,000 to $55,000** for a mid-range renovation — approximately 5% above the national average. Miami's labor multiplier of 1.05× reflects moderate cost premiums driven by strong demand, condo-heavy housing stock, and the unique challenges of a coastal subtropical climate.
+
+[CALCULATOR EMBED]
+
+---
+
+## Miami Kitchen Remodel Cost by Scope
+
+| Scope | Miami cost ($) | US national avg |
+|---|---|---|
+| Minor refresh | $10,000 – $22,000 | $10,000 – $20,000 |
+| Mid-range remodel | $22,000 – $55,000 | $25,000 – $55,000 |
+| Major remodel | $50,000 – $95,000 | $55,000 – $100,000 |
+| Luxury / gut renovation | $90,000 – $200,000+ | $100,000 – $200,000+ |
+
+---
+
+## What Drives Miami Kitchen Remodel Costs
+
+**Humidity and salt air.** Miami's subtropical climate and coastal salt air are brutal on kitchen materials. Stainless steel hardware, composite or thermofoil cabinets, and porcelain tile outperform wood and natural stone in this environment. Budget for corrosion-resistant materials from the start.
+
+**Condo association rules.** A significant portion of Miami kitchens are in condominiums. Condo associations typically impose strict rules — approved contractor lists, construction hours (often 9am–5pm weekdays only), insurance requirements, elevator reservations for material deliveries, and board approval before work begins. Budget extra time for approvals.
+
+**Florida contractor licensing.** Florida requires contractors to hold a state license through the Department of Business and Professional Regulation (DBPR). Verify any contractor at myfloridalicense.com before signing a contract. This is a serious requirement — unlicensed contracting is a criminal offense in Florida.
+
+**Miami Beach historic district.** If your property is in the Miami Beach Historic District or Art Deco Historic District, kitchen remodels may require additional review by the Historic Preservation Board, especially if the work affects windows, exterior walls, or the building's character.
+
+---
+
+## Miami Area Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| Miami Beach, South Beach | +15–25% |
+| Coral Gables, Coconut Grove | +10–20% |
+| Brickell, Downtown Miami | +10–15% |
+| Key Biscayne | +15–25% |
+| Aventura, Sunny Isles Beach | +10–15% |
+| Doral, Kendall | Standard |
+| Hialeah, Miami Gardens | -5–10% |
+| Homestead, Florida City | -10–20% |
+| Fort Lauderdale | Standard to +5% |
+| West Palm Beach | Standard to +5% |
+
+---
+
+## Miami Kitchen Remodel Cost Breakdown (mid-range, 100–140 sq ft)
+
+| Component | Cost range ($) |
+|---|---|
+| Cabinets (moisture-resistant) | $6,000 – $15,000 |
+| Labor (GC + trades) | $5,000 – $12,000 |
+| Countertops (quartz) | $2,200 – $6,500 |
+| Appliances (stainless steel) | $3,000 – $8,000 |
+| Flooring (porcelain tile) | $1,200 – $3,500 |
+| Plumbing | $1,000 – $3,000 |
+| Electrical | $1,000 – $3,000 |
+| Backsplash | $600 – $2,000 |
+| Permits | $300 – $1,200 |
+| **Total** | **$22,000 – $55,000** |
+
+---
+
+## Miami Permits & Regulations
+
+**Florida DBPR license required.** All contractors performing kitchen remodels in Florida must hold a valid state license from the Department of Business and Professional Regulation (DBPR). Verify licenses at myfloridalicense.com. Hiring an unlicensed contractor is risky — it can void your insurance and leave you liable for code violations.
+
+**Miami-Dade County permits.** Kitchen remodels involving plumbing, electrical, or structural changes require a Miami-Dade County building permit. Processing times run 2–4 weeks. The county uses an online portal for applications and inspections.
+
+**Condo board approval.** For condo kitchen remodels, you'll typically need board approval before pulling permits. Expect to submit plans, contractor credentials, insurance certificates, and a construction schedule. Allow 2–6 weeks for board review on top of permit processing time.
+
+**Miami Beach Historic District.** Properties in designated historic districts face additional review. Kitchen remodels that affect the building exterior or visible elements may require Historic Preservation Board approval, adding 4–8 weeks to the timeline.`,
+    faqs: [
+      {
+        question: 'How much does a kitchen remodel cost in Miami in 2026?',
+        answer: 'Mid-range kitchen remodels in Miami typically cost $22,000–$55,000 — about 5% above the national average. Miami Beach and Key Biscayne run 15–25% above the Miami average; Hialeah and Miami Gardens are 5–10% below.',
+      },
+      {
+        question: 'What special considerations apply to Miami condo kitchen remodels?',
+        answer: 'Most Miami kitchens are in condos, which means condo association rules apply — approved contractor lists, restricted construction hours, elevator reservations, insurance requirements, and board approval before work begins. Allow 2–6 extra weeks for condo board review.',
+      },
+      {
+        question: 'How do I verify a contractor is licensed in Florida?',
+        answer: 'Florida requires all contractors to hold a state license through the DBPR. Verify any contractor at myfloridalicense.com before signing. Unlicensed contracting is a criminal offense in Florida and can void your homeowner\'s insurance.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/us/kitchen-remodel-cost', label: 'Full US Kitchen Remodel Cost Guide' },
+      { href: '/us/houston-kitchen-remodel-cost', label: 'Houston Kitchen Remodel Cost' },
+      { href: '/us/new-york-kitchen-remodel-cost', label: 'New York Kitchen Remodel Cost' },
+      { href: '/us/small-kitchen-remodel-cost', label: 'Small Kitchen Remodel Cost' },
+      { href: '/us', label: 'Kitchen Remodel Cost Calculator' },
+    ],
+  },
+  {
+    slug: 'phoenix-kitchen-remodel-cost',
+    locale: 'us',
+    meta: {
+      title: 'Phoenix Kitchen Remodel Cost: Local Prices & Guide (2026)',
+      description: 'Kitchen remodels in Phoenix cost $19,000–$48,000 on average. Get a free personalized Phoenix estimate with our calculator.',
+    },
+    content: `# Phoenix Kitchen Remodel Cost — 2026 Guide
+
+Kitchen remodel costs in Phoenix average **$19,000 to $48,000** for a mid-range renovation — approximately 8% below the national average. Phoenix benefits from a labor multiplier of 0.92× and one of the fastest permit markets in the country, making it an efficient metro for kitchen renovations.
+
+[CALCULATOR EMBED]
+
+---
+
+## Phoenix Kitchen Remodel Cost by Scope
+
+| Scope | Phoenix cost ($) | US national avg |
+|---|---|---|
+| Minor refresh | $8,000 – $18,000 | $10,000 – $20,000 |
+| Mid-range remodel | $19,000 – $48,000 | $25,000 – $55,000 |
+| Major remodel | $45,000 – $85,000 | $55,000 – $100,000 |
+| Luxury / gut renovation | $80,000 – $170,000+ | $100,000 – $200,000+ |
+
+---
+
+## What Drives Phoenix Kitchen Remodel Costs
+
+**Below-average labor rates.** Phoenix trades charge $55–$95/hour for licensed plumbers and electricians — competitive with other Sun Belt metros. General contractor markups run 12–18%.
+
+**Fast permit processing.** Phoenix is one of the fastest permit markets in the US for residential work. Kitchen remodel permits are typically processed in 5–10 business days, getting your project started faster than most major metros.
+
+**ROC licensing.** Arizona requires contractors to be licensed through the Registrar of Contractors (ROC). Verify any contractor at azroc.gov before hiring. The ROC provides a complaint history for each licensee, making due diligence straightforward.
+
+**Desert heat and HVAC considerations.** Phoenix's extreme summer heat (regularly exceeding 110°F) makes proper kitchen ventilation critical. Range hoods must be adequately sized to handle cooking heat without overtaxing your HVAC system. Consider upgrading ventilation as part of any kitchen remodel to keep energy costs manageable.
+
+---
+
+## Phoenix Area Cost Variations
+
+| Area | Relative cost |
+|---|---|
+| Scottsdale (North) | +15–25% |
+| Paradise Valley | +20–30% |
+| Scottsdale (Central/South) | +10–20% |
+| Arcadia, Biltmore | +10–15% |
+| Tempe, Central Phoenix | Standard to +5% |
+| Chandler, Gilbert | Standard |
+| Mesa, Peoria | Standard |
+| Glendale, Avondale | -5–10% |
+| Surprise, Buckeye | -5–10% |
+| Casa Grande, Maricopa | -10–15% |
+
+---
+
+## Phoenix Kitchen Remodel Cost Breakdown (mid-range, 100–140 sq ft)
+
+| Component | Cost range ($) |
+|---|---|
+| Cabinets (semi-custom) | $5,000 – $13,000 |
+| Labor (GC + trades) | $4,000 – $10,000 |
+| Countertops (quartz) | $2,000 – $5,500 |
+| Appliances | $3,000 – $8,000 |
+| Flooring (tile/LVP) | $1,000 – $3,000 |
+| Plumbing | $800 – $2,500 |
+| Electrical | $800 – $2,500 |
+| Backsplash | $500 – $1,800 |
+| Permits | $200 – $800 |
+| **Total** | **$19,000 – $48,000** |
+
+---
+
+## Phoenix Permits & Regulations
+
+**ROC license required.** Arizona requires contractors to hold a license from the Registrar of Contractors (ROC). Verify any contractor at azroc.gov — the site includes license status, classification, and complaint history. Hiring an unlicensed contractor can leave you without legal recourse if something goes wrong.
+
+**City of Phoenix permits.** Kitchen remodels involving plumbing, electrical, or structural changes require a City of Phoenix building permit. Phoenix is known for fast processing — expect 5–10 business days for standard residential permits. Fees range from $200 to $800 depending on project scope.
+
+**Scottsdale and other municipalities.** If you're in Scottsdale, Tempe, Chandler, or another Valley city, check with that city's building department — each has its own permitting process and fees, though all are generally fast.
+
+**HOA considerations.** Many Phoenix-area homes, especially in newer communities like Gilbert, Chandler, and Surprise, are in HOA communities. Check CC&Rs for any restrictions on exterior modifications that might be part of a kitchen remodel (windows, venting, etc.).`,
+    faqs: [
+      {
+        question: 'How much does a kitchen remodel cost in Phoenix in 2026?',
+        answer: 'Mid-range kitchen remodels in Phoenix typically cost $19,000–$48,000 — about 8% below the national average. Scottsdale runs 10–25% above Phoenix proper; Glendale and Surprise are 5–10% below.',
+      },
+      {
+        question: 'How fast can I get a kitchen remodel permit in Phoenix?',
+        answer: 'Phoenix is one of the fastest permit markets in the US. Residential kitchen remodel permits are typically processed in 5–10 business days, with fees ranging from $200 to $800. This is significantly faster than most major metros.',
+      },
+      {
+        question: 'How do I verify a contractor is licensed in Arizona?',
+        answer: 'Arizona requires all contractors to hold a license from the Registrar of Contractors (ROC). Verify any contractor at azroc.gov, which shows license status, classification, and complaint history. Always check before signing a contract.',
+      },
+    ],
+    relatedGuides: [
+      { href: '/us/kitchen-remodel-cost', label: 'Full US Kitchen Remodel Cost Guide' },
+      { href: '/us/denver-kitchen-remodel-cost', label: 'Denver Kitchen Remodel Cost' },
+      { href: '/us/dallas-kitchen-remodel-cost', label: 'Dallas Kitchen Remodel Cost' },
+      { href: '/us/small-kitchen-remodel-cost', label: 'Small Kitchen Remodel Cost' },
+      { href: '/us', label: 'Kitchen Remodel Cost Calculator' },
+    ],
+  },
 ];
