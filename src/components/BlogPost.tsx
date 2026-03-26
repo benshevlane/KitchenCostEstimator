@@ -140,7 +140,7 @@ export default function BlogPost({ post, relatedPosts }: BlogPostProps) {
             Ready to Estimate Your Kitchen Cost?
           </h2>
           <p className="text-gray-300 mb-6">
-            Get a personalised cost breakdown in under 2 minutes.
+            Get a detailed cost breakdown in under 2 minutes.
           </p>
           <a
             href="/"

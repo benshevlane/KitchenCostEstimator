@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import {
   EstimatorState,
   Country,
@@ -54,6 +54,7 @@ type StepId =
 export default function EstimatorWizard() {
   const [state, setState] = useState<EstimatorState>(initialState);
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
+  const wizardRef = useRef<HTMLDivElement>(null);
 
   const update = useCallback(
     <K extends keyof EstimatorState>(key: K, value: EstimatorState[K]) => {
@@ -112,6 +113,15 @@ export default function EstimatorWizard() {
       setCurrentStepIndex((prev) => prev - 1);
     }
   };
+
+  // Scroll the wizard into view whenever the step changes
+  useEffect(() => {
+    if (wizardRef.current) {
+      const yOffset = -80; // account for sticky navbar
+      const y = wizardRef.current.getBoundingClientRect().top + window.scrollY + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  }, [currentStepIndex]);
 
   const startOver = () => {
     setState(initialState);
@@ -205,7 +215,7 @@ export default function EstimatorWizard() {
   };
 
   return (
-    <div>
+    <div ref={wizardRef}>
       {!isResults && (
         <ProgressBar
           currentStep={currentStepIndex + 1}

@@ -150,7 +150,7 @@ export default function ResultsPage({
       {/* Itemised Breakdown Table */}
       <div className="mb-8 rounded-2xl bg-white p-6 shadow-sm">
         <h3 className="mb-4 text-lg font-bold text-dark">
-          Itemised Breakdown
+          {country === 'uk' ? 'Itemised Breakdown' : 'Itemized Breakdown'}
         </h3>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
@@ -232,7 +232,7 @@ export default function ResultsPage({
       <div className="mb-8 rounded-xl border border-gray-200 bg-gray-50 p-4">
         <p className="text-xs leading-relaxed text-muted">
           <strong>Disclaimer:</strong> These estimates are for guidance only and
-          are based on average UK, US, and Canadian pricing data from 2024–2025
+          are based on average UK, US, and Canadian pricing data from 2025–2026
           sources. Actual costs will vary based on your location, specific
           products chosen, contractor rates, and site conditions. Always obtain
           multiple quotes from qualified tradespeople before committing to a

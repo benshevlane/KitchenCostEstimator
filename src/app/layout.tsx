@@ -19,11 +19,7 @@ const webAppJsonLd = {
     price: "0",
     priceCurrency: "GBP",
   },
-  creator: {
-    "@type": "SoftwareApplication",
-    name: "Perplexity Computer",
-    url: "https://www.perplexity.ai/computer",
-  },
+
 };
 
 const faqJsonLd = {
@@ -75,7 +71,7 @@ const faqJsonLd = {
       name: "How accurate is this kitchen cost estimator?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Our estimates are based on 2024-2025 pricing data from trusted UK, US, and Canadian sources. We provide low, mid, and high ranges to reflect market variation. While no online estimator can replace a detailed quote, our tool gives you a reliable ballpark figure.",
+        text: "Our estimates are based on 2025-2026 pricing data from trusted UK, US, and Canadian sources. We provide low, mid, and high ranges to reflect market variation. While no online estimator can replace a detailed quote, our tool gives you a reliable ballpark figure.",
       },
     },
     {

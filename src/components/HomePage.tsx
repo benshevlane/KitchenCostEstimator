@@ -21,60 +21,91 @@ function ChevronDown({ className }: { className?: string }) {
   );
 }
 
-const faqItems = [
-  {
-    q: 'How much does a kitchen renovation cost?',
-    a: 'A kitchen renovation typically costs between £5,000 and £30,000 in the UK, $15,000 to $75,000 in the US, or CA$20,000 to CA$80,000 in Canada. The final price depends on kitchen size, material choices, appliance quality, and whether you hire professionals or DIY. A small budget kitchen starts around £5,000, while a large premium kitchen with high-end appliances and stone worktops can exceed £50,000.',
-  },
-  {
-    q: 'What is the biggest cost in a kitchen renovation?',
-    a: 'Kitchen units and cabinetry are typically the largest expense, accounting for 30-40% of the total budget. Custom or semi-custom cabinets can cost significantly more than flat-pack options. Worktops are the second largest cost, especially if you choose natural stone like granite or marble. Appliances, plumbing, and electrical work make up the remainder.',
-  },
-  {
-    q: 'How long does a kitchen renovation take?',
-    a: 'A straightforward kitchen renovation takes 4-8 weeks on average. A simple refresh with new doors and worktops might take 2-3 weeks, while a full gut renovation involving layout changes, new plumbing, and electrical work can take 10-16 weeks. Planning and lead times for materials often add another 4-8 weeks before work begins.',
-  },
-  {
-    q: 'Can I renovate a kitchen on a tight budget?',
-    a: 'Yes. Focus on cosmetic updates like repainting cabinets, replacing doors and handles, fitting new worktops, and upgrading lighting. Keep the existing layout to avoid plumbing and electrical costs. Budget laminate worktops and mid-range appliances offer good value. Our estimator can help you see exactly where the money goes so you can prioritise effectively.',
-  },
-  {
-    q: 'Is it cheaper to DIY a kitchen installation?',
-    a: 'DIY installation can save 20-40% on labour costs, but only if you have the skills. Fitting units, plumbing, and electrical work require competence to meet building regulations. Gas and certain electrical work must legally be done by certified professionals in the UK. A common middle ground is to install the units yourself and hire trades for plumbing, gas, and electrics.',
-  },
-  {
-    q: 'How accurate is this kitchen cost estimator?',
-    a: 'Our estimates are based on 2024-2025 pricing data from trusted UK, US, and Canadian sources. We provide low, mid, and high ranges to reflect market variation. While no online estimator can replace a detailed quote from a kitchen fitter, our tool gives you a reliable ballpark figure to help you plan your budget before speaking to professionals.',
-  },
-  {
-    q: 'What worktop material offers the best value?',
-    a: 'Laminate worktops offer the best value, starting from around £20-40 per linear metre. They come in a wide range of finishes including realistic stone and wood effects. For a mid-range option, quartz offers excellent durability and low maintenance at £200-500 per m\u00B2. Granite and marble are premium choices that add significant value to your kitchen but come at a higher price point.',
-  },
-  {
-    q: 'Should I get a kitchen from IKEA or a specialist?',
-    a: 'IKEA kitchens offer excellent value with a wide range of styles and good quality for the price. They work well for standard layouts and budget-conscious renovations. Specialist kitchen companies (like Howdens, Wren, or independent makers) offer more customisation, better build quality, and professional design services. For complex layouts or high-end finishes, a specialist is usually worth the extra investment.',
-  },
-];
+function getFaqItems(localeKey: LocaleKey) {
+  if (localeKey === 'us') return [
+    { q: 'How much does a kitchen remodel cost?', a: 'A kitchen remodel typically costs between $15,000 and $75,000 in the US. The final price depends on kitchen size, material choices, appliance quality, and whether you hire professionals or DIY. A small budget kitchen starts around $15,000, while a large premium kitchen with high-end appliances and stone countertops can exceed $85,000.' },
+    { q: 'What is the biggest cost in a kitchen remodel?', a: 'Kitchen cabinets are typically the largest expense, accounting for 30-40% of the total budget. Custom or semi-custom cabinets can cost significantly more than stock options. Countertops are the second largest cost, especially if you choose natural stone like granite or marble. Appliances, plumbing, and electrical work make up the remainder.' },
+    { q: 'How long does a kitchen remodel take?', a: 'A straightforward kitchen remodel takes 4-8 weeks on average. A simple refresh with new doors and countertops might take 2-3 weeks, while a full gut renovation involving layout changes, new plumbing, and electrical work can take 10-16 weeks. Planning and lead times for materials often add another 4-8 weeks before work begins.' },
+    { q: 'Can I remodel a kitchen on a tight budget?', a: 'Yes. Focus on cosmetic updates like repainting cabinets, replacing doors and handles, fitting new countertops, and upgrading lighting. Keep the existing layout to avoid plumbing and electrical costs. Budget laminate countertops and mid-range appliances offer good value. Our estimator can help you see exactly where the money goes so you can prioritize effectively.' },
+    { q: 'Is it cheaper to DIY a kitchen installation?', a: 'DIY installation can save 20-40% on labor costs, but only if you have the skills. Fitting cabinets, plumbing, and electrical work require competence to meet building codes. Electrical and gas work should be done by licensed professionals. A common middle ground is to install the cabinets yourself and hire contractors for plumbing, gas, and electrical.' },
+    { q: 'How accurate is this kitchen cost estimator?', a: 'Our estimates are based on 2025-2026 pricing data from trusted US sources including HomeAdvisor, Fixr, and contractor surveys. We provide low, mid, and high ranges to reflect market variation. While no online estimator can replace a detailed quote from a contractor, our tool gives you a reliable ballpark figure to help you plan your budget.' },
+    { q: 'What countertop material offers the best value?', a: 'Laminate countertops offer the best value, starting from around $10-30 per square foot. They come in a wide range of finishes including realistic stone and wood effects. For a mid-range option, quartz offers excellent durability and low maintenance at $50-100 per sq ft. Granite and marble are premium choices that add significant value to your kitchen.' },
+    { q: 'Should I get a kitchen from IKEA or a specialist?', a: 'IKEA kitchens offer excellent value with a wide range of styles and good quality for the price. They work well for standard layouts and budget-conscious remodels. Specialist kitchen companies offer more customization, better build quality, and professional design services. For complex layouts or high-end finishes, a specialist is usually worth the extra investment.' },
+  ];
+  if (localeKey === 'ca') return [
+    { q: 'How much does a kitchen renovation cost in Canada?', a: 'A kitchen renovation typically costs between CA$18,000 and CA$80,000 in Canada. The final price depends on kitchen size, material choices, appliance quality, and whether you hire professionals or DIY. A small budget kitchen starts around CA$18,000, while a large premium kitchen with high-end appliances and stone countertops can exceed CA$95,000.' },
+    { q: 'What is the biggest cost in a kitchen renovation?', a: 'Kitchen cabinets are typically the largest expense, accounting for 30-40% of the total budget. Custom or semi-custom cabinets can cost significantly more than stock options. Countertops are the second largest cost, especially if you choose natural stone like granite or marble. Appliances, plumbing, and electrical work make up the remainder.' },
+    { q: 'How long does a kitchen renovation take?', a: 'A straightforward kitchen renovation takes 4-8 weeks on average. A simple refresh with new doors and countertops might take 2-3 weeks, while a full gut renovation involving layout changes, new plumbing, and electrical work can take 10-16 weeks. Planning and lead times for materials often add another 4-8 weeks before work begins.' },
+    { q: 'Can I renovate a kitchen on a tight budget?', a: 'Yes. Focus on cosmetic updates like repainting cabinets, replacing doors and handles, fitting new countertops, and upgrading lighting. Keep the existing layout to avoid plumbing and electrical costs. Budget laminate countertops and mid-range appliances offer good value. Our estimator can help you see exactly where the money goes so you can prioritize effectively.' },
+    { q: 'Is it cheaper to DIY a kitchen installation?', a: 'DIY installation can save 20-40% on labor costs, but only if you have the skills. Fitting cabinets, plumbing, and electrical work require competence to meet building codes. Electrical and gas work should be done by licensed professionals. A common middle ground is to install the cabinets yourself and hire contractors for plumbing, gas, and electrical.' },
+    { q: 'How accurate is this kitchen cost estimator?', a: 'Our estimates are based on 2025-2026 pricing data from trusted Canadian sources including HomeStars, contractor surveys, and provincial data. We provide low, mid, and high ranges to reflect market variation. While no online estimator can replace a detailed quote from a contractor, our tool gives you a reliable ballpark figure to help you plan your budget.' },
+    { q: 'What countertop material offers the best value?', a: 'Laminate countertops offer the best value, starting from around CA$15-50 per square foot. They come in a wide range of finishes including realistic stone and wood effects. For a mid-range option, quartz offers excellent durability and low maintenance at CA$65-130 per sq ft. Granite and marble are premium choices that add significant value to your kitchen.' },
+    { q: 'Should I get a kitchen from IKEA or a specialist?', a: 'IKEA kitchens offer excellent value with a wide range of styles and good quality for the price. They work well for standard layouts and budget-conscious renovations. Specialist kitchen companies offer more customization, better build quality, and professional design services. For complex layouts or high-end finishes, a specialist is usually worth the extra investment.' },
+  ];
+  // UK default
+  return [
+    { q: 'How much does a kitchen renovation cost?', a: 'A kitchen renovation typically costs between £5,000 and £30,000 in the UK. The final price depends on kitchen size, material choices, appliance quality, and whether you hire professionals or DIY. A small budget kitchen starts around £5,000, while a large premium kitchen with high-end appliances and stone worktops can exceed £50,000.' },
+    { q: 'What is the biggest cost in a kitchen renovation?', a: 'Kitchen units and cabinetry are typically the largest expense, accounting for 30-40% of the total budget. Custom or semi-custom cabinets can cost significantly more than flat-pack options. Worktops are the second largest cost, especially if you choose natural stone like granite or marble. Appliances, plumbing, and electrical work make up the remainder.' },
+    { q: 'How long does a kitchen renovation take?', a: 'A straightforward kitchen renovation takes 4-8 weeks on average. A simple refresh with new doors and worktops might take 2-3 weeks, while a full gut renovation involving layout changes, new plumbing, and electrical work can take 10-16 weeks. Planning and lead times for materials often add another 4-8 weeks before work begins.' },
+    { q: 'Can I renovate a kitchen on a tight budget?', a: 'Yes. Focus on cosmetic updates like repainting cabinets, replacing doors and handles, fitting new worktops, and upgrading lighting. Keep the existing layout to avoid plumbing and electrical costs. Budget laminate worktops and mid-range appliances offer good value. Our estimator can help you see exactly where the money goes so you can prioritise effectively.' },
+    { q: 'Is it cheaper to DIY a kitchen installation?', a: 'DIY installation can save 20-40% on labour costs, but only if you have the skills. Fitting units, plumbing, and electrical work require competence to meet building regulations. Gas and certain electrical work must legally be done by certified professionals in the UK. A common middle ground is to install the units yourself and hire trades for plumbing, gas, and electrics.' },
+    { q: 'How accurate is this kitchen cost estimator?', a: 'Our estimates are based on 2025-2026 pricing data from trusted UK sources including Checkatrade, MyJobQuote, and contractor surveys. We provide low, mid, and high ranges to reflect market variation. While no online estimator can replace a detailed quote from a kitchen fitter, our tool gives you a reliable ballpark figure to help you plan your budget.' },
+    { q: 'What worktop material offers the best value?', a: 'Laminate worktops offer the best value, starting from around £20-40 per linear metre. They come in a wide range of finishes including realistic stone and wood effects. For a mid-range option, quartz offers excellent durability and low maintenance at £200-500 per m\u00B2. Granite and marble are premium choices that add significant value to your kitchen.' },
+    { q: 'Should I get a kitchen from IKEA or a specialist?', a: 'IKEA kitchens offer excellent value with a wide range of styles and good quality for the price. They work well for standard layouts and budget-conscious renovations. Specialist kitchen companies (like Howdens, Wren, or independent makers) offer more customisation, better build quality, and professional design services. For complex layouts or high-end finishes, a specialist is usually worth the extra investment.' },
+  ];
+}
 
-const tipItems = [
-  { tip: 'Keep the existing layout', detail: 'Avoiding plumbing and electrical moves can save £2,000–£5,000 in labour and materials.' },
-  { tip: 'Mix budget and premium choices', detail: 'Splurge on the worktops you see and touch every day, but save on cabinet interiors and less visible elements.' },
-  { tip: 'Consider ex-display or end-of-line kitchens', detail: 'Kitchen showrooms regularly clear stock at 40-60% discounts. Timing your purchase around sales events can yield big savings.' },
-  { tip: 'Do what you can yourself', detail: 'Painting, tiling backsplashes, and assembling flat-pack units are achievable DIY tasks that save on labour costs.' },
-  { tip: 'Plan for contingency', detail: 'Set aside 10-15% of your budget for unexpected costs. Older homes often reveal surprises behind walls and under floors.' },
-  { tip: 'Get at least three quotes', detail: 'Prices vary significantly between fitters. Getting multiple quotes ensures you find fair pricing for your area.' },
-];
+function getTipItems(localeKey: LocaleKey) {
+  if (localeKey === 'us') return [
+    { tip: 'Keep the existing layout', detail: 'Avoiding plumbing and electrical moves can save $2,000-$5,000 in labor and materials.' },
+    { tip: 'Mix budget and premium choices', detail: 'Splurge on the countertops you see and touch every day, but save on cabinet interiors and less visible elements.' },
+    { tip: 'Consider ex-display or clearance kitchens', detail: 'Kitchen showrooms regularly clear stock at 40-60% discounts. Timing your purchase around holiday sales can yield big savings.' },
+    { tip: 'Do what you can yourself', detail: 'Painting, tiling backsplashes, and assembling stock cabinets are achievable DIY tasks that save on labor costs.' },
+    { tip: 'Plan for contingency', detail: 'Set aside 10-15% of your budget for unexpected costs. Older homes often reveal surprises behind walls and under floors.' },
+    { tip: 'Get at least three quotes', detail: 'Prices vary significantly between contractors. Getting multiple quotes ensures you find fair pricing for your area.' },
+  ];
+  if (localeKey === 'ca') return [
+    { tip: 'Keep the existing layout', detail: 'Avoiding plumbing and electrical moves can save CA$3,000-CA$8,000 in labor and materials.' },
+    { tip: 'Mix budget and premium choices', detail: 'Splurge on the countertops you see and touch every day, but save on cabinet interiors and less visible elements.' },
+    { tip: 'Consider ex-display or clearance kitchens', detail: 'Kitchen showrooms regularly clear stock at 40-60% discounts. Timing your purchase around sales events can yield big savings.' },
+    { tip: 'Do what you can yourself', detail: 'Painting, tiling backsplashes, and assembling stock cabinets are achievable DIY tasks that save on labor costs.' },
+    { tip: 'Plan for contingency', detail: 'Set aside 10-15% of your budget for unexpected costs. Older homes often reveal surprises behind walls and under floors.' },
+    { tip: 'Get at least three quotes', detail: 'Prices vary significantly between contractors. Getting multiple quotes ensures you find fair pricing for your area.' },
+  ];
+  // UK default
+  return [
+    { tip: 'Keep the existing layout', detail: 'Avoiding plumbing and electrical moves can save £2,000–£5,000 in labour and materials.' },
+    { tip: 'Mix budget and premium choices', detail: 'Splurge on the worktops you see and touch every day, but save on cabinet interiors and less visible elements.' },
+    { tip: 'Consider ex-display or end-of-line kitchens', detail: 'Kitchen showrooms regularly clear stock at 40-60% discounts. Timing your purchase around sales events can yield big savings.' },
+    { tip: 'Do what you can yourself', detail: 'Painting, tiling backsplashes, and assembling flat-pack units are achievable DIY tasks that save on labour costs.' },
+    { tip: 'Plan for contingency', detail: 'Set aside 10-15% of your budget for unexpected costs. Older homes often reveal surprises behind walls and under floors.' },
+    { tip: 'Get at least three quotes', detail: 'Prices vary significantly between fitters. Getting multiple quotes ensures you find fair pricing for your area.' },
+  ];
+}
 
-const comparisonRows = [
-  { category: 'Units', budget: 'Flatpack / stock', mid: 'Rigid / semi-custom', premium: 'Bespoke / handmade' },
-  { category: 'Worktops', budget: 'Laminate', mid: 'Quartz', premium: 'Granite / Marble' },
-  { category: 'Appliances', budget: 'Basic branded', mid: 'Mid-range integrated', premium: 'Premium brand suite' },
-  { category: 'Flooring', budget: 'Vinyl / LVT', mid: 'Engineered wood', premium: 'Natural stone' },
-  { category: 'Installation', budget: 'DIY / local fitter', mid: 'Professional fitting', premium: 'Fully project-managed' },
-];
+function getComparisonRows(localeKey: LocaleKey) {
+  if (localeKey === 'us' || localeKey === 'ca') return [
+    { category: 'Cabinets', budget: 'Stock cabinets', mid: 'Semi-custom cabinets', premium: 'Custom cabinetry' },
+    { category: 'Countertops', budget: 'Laminate', mid: 'Quartz', premium: 'Granite / Marble' },
+    { category: 'Appliances', budget: 'Basic branded', mid: 'Mid-range integrated', premium: 'Premium brand suite' },
+    { category: 'Flooring', budget: 'Vinyl / LVT', mid: 'Engineered wood', premium: 'Natural stone' },
+    { category: 'Installation', budget: 'DIY / local contractor', mid: 'Professional installation', premium: 'Fully project-managed' },
+  ];
+  // UK default
+  return [
+    { category: 'Units', budget: 'Flatpack / stock', mid: 'Rigid / semi-custom', premium: 'Bespoke / handmade' },
+    { category: 'Worktops', budget: 'Laminate', mid: 'Quartz', premium: 'Granite / Marble' },
+    { category: 'Appliances', budget: 'Basic branded', mid: 'Mid-range integrated', premium: 'Premium brand suite' },
+    { category: 'Flooring', budget: 'Vinyl / LVT', mid: 'Engineered wood', premium: 'Natural stone' },
+    { category: 'Installation', budget: 'DIY / local fitter', mid: 'Professional fitting', premium: 'Fully project-managed' },
+  ];
+}
 
 export default function HomePage({ localeKey }: { localeKey: LocaleKey }) {
   const locale = localeData[localeKey];
+  const faqItems = getFaqItems(localeKey);
+  const tipItems = getTipItems(localeKey);
+  const comparisonRows = getComparisonRows(localeKey);
 
   return (
     <main className="min-h-screen bg-light-bg">
@@ -132,7 +163,7 @@ export default function HomePage({ localeKey }: { localeKey: LocaleKey }) {
 
       {/* Data credibility line */}
       <p className="mt-4 text-center text-sm text-muted px-4">
-        Estimates based on 70+ cost items from Checkatrade, HomeAdvisor, Fixr, and HomeStars
+        Estimates based on 2025–2026 pricing data from Checkatrade, HomeAdvisor, Fixr, and HomeStars
       </p>
 
       {/* CTA + Trust Signals */}
@@ -142,7 +173,7 @@ export default function HomePage({ localeKey }: { localeKey: LocaleKey }) {
             href="#estimator"
             className="inline-block rounded-xl bg-teal-primary px-8 py-4 text-lg font-semibold text-white transition-colors duration-200 hover:bg-teal-hover"
           >
-            Get My Personalised Estimate &rarr;
+            {localeKey === 'uk' ? 'Get My Personalised Estimate' : 'Get My Personalized Estimate'} &rarr;
           </a>
           <div className="mt-5 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-mid">
             <span className="flex items-center gap-1.5"><TealCheck /> Completely free</span>
@@ -184,9 +215,9 @@ export default function HomePage({ localeKey }: { localeKey: LocaleKey }) {
               <span className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-teal-primary text-sm font-bold text-white">
                 1
               </span>
-              <h3 className="text-lg font-bold text-dark">Answer 4 quick questions</h3>
+              <h3 className="text-lg font-bold text-dark">Answer a few quick questions</h3>
               <p className="mt-2 text-sm text-mid">
-                Kitchen size, layout, budget tier, and what&apos;s included.
+                Location, kitchen size, scope, materials, and more.
               </p>
             </article>
             <article className="rounded-2xl border border-gray-200 p-6 text-center">
@@ -347,6 +378,7 @@ export default function HomePage({ localeKey }: { localeKey: LocaleKey }) {
                 <li><a href="#tips" className="transition-colors hover:text-white">Tips</a></li>
                 <li><a href="#faq" className="transition-colors hover:text-white">FAQ</a></li>
                 <li><a href={guidesPath(localeKey)} className="transition-colors hover:text-white">Guides</a></li>
+                <li><a href="/blog" className="transition-colors hover:text-white">Blog</a></li>
               </ul>
             </div>
             {/* Col 3: Tools */}
@@ -370,14 +402,10 @@ export default function HomePage({ localeKey }: { localeKey: LocaleKey }) {
           {/* Bottom bar */}
           <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-sm text-white/40 sm:flex-row">
             <p>&copy; 2026 KitchenCostEstimator</p>
-            <a
-              href="https://www.perplexity.ai/computer"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-white/60"
-            >
-              Created with Perplexity Computer
-            </a>
+            <div className="flex items-center gap-4">
+              <a href="/privacy" className="transition-colors hover:text-white/60">Privacy Policy</a>
+              <a href="/terms" className="transition-colors hover:text-white/60">Terms of Service</a>
+            </div>
           </div>
         </div>
       </footer>

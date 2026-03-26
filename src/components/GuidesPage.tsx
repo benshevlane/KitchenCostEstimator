@@ -77,7 +77,7 @@ export default function GuidesPage({ currentLocale }: GuidesPageProps) {
 
         <h1 className="text-3xl font-bold text-dark sm:text-4xl">Kitchen Remodel Cost Guides</h1>
         <p className="mt-3 text-lg text-muted">
-          Browse all our kitchen renovation cost guides, organised by region and topic.
+          Browse all our kitchen renovation cost guides, {currentLocale === 'uk' ? 'organised' : 'organized'} by region and topic.
         </p>
 
         {orderedLocales.map((locale) => {
@@ -122,7 +122,7 @@ export default function GuidesPage({ currentLocale }: GuidesPageProps) {
         {/* CTA */}
         <div className="mt-12 rounded-xl bg-dark p-8 text-center">
           <h2 className="text-2xl font-bold text-white mb-3">Ready to Estimate Your Kitchen Cost?</h2>
-          <p className="text-gray-300 mb-6">Get a personalised cost breakdown in under 2 minutes.</p>
+          <p className="text-gray-300 mb-6">Get a {currentLocale === 'uk' ? 'personalised' : 'personalized'} cost breakdown in under 2 minutes.</p>
           <a
             href={calcHref}
             className="inline-block rounded-lg bg-teal-primary px-8 py-3 text-white font-semibold hover:bg-teal-hover transition-colors"
