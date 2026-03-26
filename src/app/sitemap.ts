@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { getPagesByLocale } from '@/content';
+import { getAllBlogPosts } from '@/content/blog';
 
 const BASE_URL = 'https://kitchencostestimator.com';
 
@@ -97,6 +98,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: today,
       changeFrequency: 'monthly',
       priority: getPriority(page.slug),
+    });
+  }
+
+  // Blog index
+  entries.push({
+    url: `${BASE_URL}/blog`,
+    lastModified: today,
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  });
+
+  // Blog posts
+  for (const post of getAllBlogPosts()) {
+    entries.push({
+      url: `${BASE_URL}/blog/${post.slug}`,
+      lastModified: post.date,
+      changeFrequency: 'monthly',
+      priority: 0.7,
     });
   }
 

@@ -16,6 +16,7 @@ const navLinks = [
   { label: 'Calculator', href: '#estimator' },
   { label: 'Tips', href: '#tips' },
   { label: 'FAQ', href: '#faq' },
+  { label: 'Blog', href: '/blog' },
 ];
 
 /** Pick the top guides to feature in the dropdown (pillar first, then geo, then size). */
