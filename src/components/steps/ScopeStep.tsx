@@ -8,10 +8,10 @@ interface ScopeStepProps {
 }
 
 const scopeOptions: { id: ScopeItem; label: string; icon: string }[] = [
-  { id: "units", label: "Units & Cabinetry", icon: "🗄️" },
+  { id: "units", label: "Units & Cabinetry", icon: "🪵" },
   { id: "worktops", label: "Worktops / Countertops", icon: "🪨" },
-  { id: "appliances", label: "Appliances", icon: "🍳" },
-  { id: "flooring", label: "Flooring", icon: "🏗️" },
+  { id: "appliances", label: "Appliances", icon: "🔌" },
+  { id: "flooring", label: "Flooring", icon: "🟫" },
   { id: "plumbing", label: "Plumbing", icon: "🔧" },
   { id: "electrical", label: "Electrical", icon: "⚡" },
   { id: "lighting", label: "Lighting", icon: "💡" },
