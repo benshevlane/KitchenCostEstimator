@@ -1,8 +1,9 @@
 import type { BlogPost } from './types';
 import { howMuchDoesAKitchenCostUk2026 } from './how-much-does-a-kitchen-cost-uk-2026';
 import { costOfNewKitchenUk2026RealPricesByRegionSizeFinish } from './cost-of-new-kitchen-uk-2026-real-prices-by-region-size-finish';
+import { wickesGlossopYourCompleteGuideToKitchenRenovationPlanningCosts } from './wickes-glossop-your-complete-guide-to-kitchen-renovation-planning-costs';
 
-const allBlogPosts: BlogPost[] = [costOfNewKitchenUk2026RealPricesByRegionSizeFinish, howMuchDoesAKitchenCostUk2026];
+const allBlogPosts: BlogPost[] = [wickesGlossopYourCompleteGuideToKitchenRenovationPlanningCosts, costOfNewKitchenUk2026RealPricesByRegionSizeFinish, howMuchDoesAKitchenCostUk2026];
 
 // Sort by date descending (newest first)
 allBlogPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
