@@ -3,6 +3,8 @@ import { localeData } from '@/lib/localeData';
 import { buildAlternates } from '@/lib/seoAlternates';
 import HomePage from '@/components/HomePage';
 
+export const dynamic = 'force-static';
+
 const locale = localeData.uk;
 
 export const metadata: Metadata = {

@@ -1,6 +1,6 @@
 import { getCrossLocaleSlug } from '@/content';
 
-const BASE = 'https://kitchencostestimator.com';
+const BASE = 'https://www.kitchencostestimator.com';
 
 type Locale = 'us' | 'uk' | 'ca';
 

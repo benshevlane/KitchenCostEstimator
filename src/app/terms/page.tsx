@@ -2,7 +2,20 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Terms of Service | KitchenCostEstimator',
-  description: 'Terms of service for KitchenCostEstimator.com.',
+  description:
+    'Read the Terms of Service for KitchenCostEstimator.com. Understand how our free kitchen cost calculator works, your responsibilities, and the conditions of use.',
+  openGraph: {
+    title: 'Terms of Service | KitchenCostEstimator',
+    description: 'Read the Terms of Service for KitchenCostEstimator.com.',
+    url: 'https://www.kitchencostestimator.com/terms',
+    siteName: 'KitchenCostEstimator',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Terms of Service | KitchenCostEstimator',
+    description: 'Read the Terms of Service for KitchenCostEstimator.com.',
+  },
 };
 
 export default function TermsPage() {

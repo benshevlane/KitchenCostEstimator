@@ -1,7 +1,7 @@
 import type { SeoPageData } from '@/content/types';
 import { categorize, type GuideCategory } from '@/lib/guideCategories';
 
-const DOMAIN = 'https://kitchencostestimator.com';
+const DOMAIN = 'https://www.kitchencostestimator.com';
 
 // ── Helpers ──────────────────────────────────────────────────────────
 

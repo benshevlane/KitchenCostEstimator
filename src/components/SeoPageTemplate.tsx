@@ -35,7 +35,7 @@ function SeoNavbar({ locale }: { locale: string }) {
             Calculator
           </a>
           <a
-            href={locale === 'us' ? '/kitchen-remodel-cost' : `/${locale}/kitchen-renovation-cost`}
+            href={locale === 'us' ? '/kitchen-remodel-cost' : locale === 'uk' ? '/uk/kitchen-cost' : `/${locale}/kitchen-renovation-cost`}
             className="hidden text-sm font-medium text-mid transition-colors hover:text-teal-primary sm:block"
           >
             Cost Guide

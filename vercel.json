@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "kitchencostestimator.com" }],
+      "destination": "https://www.kitchencostestimator.com/$1",
+      "permanent": true
+    }
+  ]
+}

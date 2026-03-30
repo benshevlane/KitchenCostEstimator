@@ -1,7 +1,7 @@
 import type { BlogPost } from './types';
 
 export const costOfNewKitchenUk2026RealPricesByRegionSizeFinish: BlogPost = {
-  title: 'Cost of New Kitchen UK 2026: Real Prices by Region, Size & Finish',
+  title: 'Cost of a New Kitchen UK 2026: Prices by Region & Size',
   slug: 'cost-of-new-kitchen-uk-2026-real-prices-by-region-size-finish',
   description: 'Wondering about the cost of a new kitchen UK 2026? Discover real price ranges by region, size, and finish tier — plus a free interactive cost estimator tool.',
   date: '2026-03-26',
