@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { getAllBlogSlugs, getBlogPost, getRelatedPosts } from '@/content/blog';
 import BlogPostComponent from '@/components/BlogPost';
 
-const BASE_URL = 'https://kitchencostestimator.com';
+const BASE_URL = 'https://www.kitchencostestimator.com';
 
 type Params = { slug: string };
 
@@ -21,7 +21,7 @@ export async function generateMetadata({
   if (!post) return {};
 
   return {
-    title: `${post.title} | KitchenCostEstimator Blog`,
+    title: post.title,
     description: post.description,
     alternates: {
       canonical: `${BASE_URL}/blog/${post.slug}`,

@@ -15,6 +15,11 @@ interface BlogPostProps {
   relatedPosts: BlogPostType[];
 }
 
+/** Strip the leading markdown H1 to avoid a duplicate &lt;h1&gt; (the component already renders one). */
+function stripLeadingH1(md: string): string {
+  return md.replace(/^#\s+.+\n*/, '');
+}
+
 export default function BlogPost({ post, relatedPosts }: BlogPostProps) {
   return (
     <>
@@ -119,7 +124,7 @@ export default function BlogPost({ post, relatedPosts }: BlogPostProps) {
 
         {/* Article Content */}
         <article>
-          <MarkdownRenderer content={post.content} />
+          <MarkdownRenderer content={stripLeadingH1(post.content)} />
         </article>
 
         {/* Related Posts */}

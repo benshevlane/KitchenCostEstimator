@@ -6,7 +6,7 @@ export const caPages: SeoPageData[] = [
     locale: 'ca',
     meta: {
       title: 'Kitchen Renovation Cost Canada: Average Prices & Calculator (2026)',
-      description: 'How much does a kitchen renovation cost in Canada? Average costs range from CA$15,000 to CA$65,000+. Use our free calculator for a personalised Canadian estimate.',
+      description: 'How much does a kitchen renovation cost in Canada? Average costs range from CA$15,000 to CA$65,000+. Use our free calculator for a personalised estimate.',
     },
     content: `# Kitchen Renovation Cost Canada — Complete Guide for 2026
 

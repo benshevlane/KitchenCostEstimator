@@ -2,7 +2,22 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | KitchenCostEstimator',
-  description: 'Privacy policy for KitchenCostEstimator.com — how we handle your data.',
+  description:
+    'KitchenCostEstimator.com Privacy Policy — find out what data we collect when you use our kitchen cost calculator, how we use it, and your rights under GDPR and CCPA.',
+  openGraph: {
+    title: 'Privacy Policy | KitchenCostEstimator',
+    description:
+      'KitchenCostEstimator.com Privacy Policy — how we handle your data.',
+    url: 'https://www.kitchencostestimator.com/privacy',
+    siteName: 'KitchenCostEstimator',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Privacy Policy | KitchenCostEstimator',
+    description:
+      'KitchenCostEstimator.com Privacy Policy — how we handle your data.',
+  },
 };
 
 export default function PrivacyPage() {

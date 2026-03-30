@@ -1,10 +1,10 @@
 import type { BlogPost } from './types';
 
 export const howMuchDoesAKitchenCostUk2026: BlogPost = {
-  title: 'How Much Does a Kitchen Cost in the UK in 2026? Complete Guide',
+  title: 'How Much Does a Kitchen Cost in the UK? (2026 Guide)',
   slug: 'how-much-does-a-kitchen-cost-uk-2026',
   description:
-    'Discover the true cost of a new kitchen in the UK in 2026. From budget to luxury renovations, we break down every cost — units, worktops, appliances, fitting, and more.',
+    'Discover the true cost of a new kitchen in the UK in 2026. We break down every cost — units, worktops, appliances and fitting — for all budgets.',
   date: '2026-01-15',
   author: {
     name: 'Kitchen Cost Estimator Team',

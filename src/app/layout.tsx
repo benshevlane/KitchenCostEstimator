@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.kitchencostestimator.com"),
   title: "Kitchen Cost Estimator — Free Renovation Cost Calculator",
 };
 
@@ -11,7 +12,7 @@ const webAppJsonLd = {
   name: "Kitchen Cost Estimator",
   description:
     "Free online kitchen renovation cost calculator for UK, US, and Canada",
-  url: "https://kitchencostestimator.com",
+  url: "https://www.kitchencostestimator.com",
   applicationCategory: "UtilityApplication",
   operatingSystem: "Web",
   offers: {

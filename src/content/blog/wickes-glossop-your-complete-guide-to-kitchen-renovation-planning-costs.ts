@@ -1,7 +1,7 @@
 import type { BlogPost } from './types';
 
 export const wickesGlossopYourCompleteGuideToKitchenRenovationPlanningCosts: BlogPost = {
-  title: 'Wickes Glossop: Your Complete Guide to Kitchen Renovation Planning & Costs',
+  title: 'Wickes Glossop: Kitchen Renovation Planning & Costs Guide',
   slug: 'wickes-glossop-your-complete-guide-to-kitchen-renovation-planning-costs',
   description: 'Planning a kitchen renovation near Wickes Glossop? Discover costs, tips, and how to budget smarter with our free UK kitchen cost estimator tool.',
   date: '2026-03-27',

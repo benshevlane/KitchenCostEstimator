@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getPagesByLocale } from '@/content';
 import { getAllBlogPosts } from '@/content/blog';
 
-const BASE_URL = 'https://kitchencostestimator.com';
+const BASE_URL = 'https://www.kitchencostestimator.com';
 
 function getPriority(slug: string): number {
   // Pillar pages: main cost guide per locale
@@ -100,6 +100,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: getPriority(page.slug),
     });
   }
+
+  // Legal pages
+  entries.push(
+    {
+      url: `${BASE_URL}/terms`,
+      lastModified: today,
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/privacy`,
+      lastModified: today,
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+  );
 
   // Blog index
   entries.push({
