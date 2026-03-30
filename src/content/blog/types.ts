@@ -10,4 +10,7 @@ export interface BlogPost {
   };
   tags: string[];
   readingTime: number; // minutes
+  canonicalUrl?: string;
+  ogImage?: string;
+  jsonLd?: Record<string, unknown>;
 }
