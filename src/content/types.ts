@@ -26,4 +26,6 @@ export interface SeoPageData {
   category?: 'pillar' | 'size' | 'geo' | 'informational';
   /** Explicit HowTo steps. If absent, FAQ items are used as steps for informational pages. */
   steps?: Array<{ name: string; text: string }>;
+  /** 2–3 sentence local market snapshot rendered above the first cost table. */
+  localMarketContext?: string;
 }
