@@ -104,6 +104,14 @@ function CanonicalCheck() {
   );
 }
 
+function injectLocalMarketContext(content: string, context?: string): string {
+  if (!context) return content;
+  const marker = '\n---\n';
+  const idx = content.indexOf(marker);
+  if (idx === -1) return content;
+  return content.slice(0, idx + marker.length) + '\n> **Local Market Snapshot:** ' + context + '\n' + content.slice(idx + marker.length);
+}
+
 export default function SeoPageTemplate({ page }: { page: SeoPageData }) {
   const breadcrumbs = buildBreadcrumbs(page);
 
@@ -117,7 +125,7 @@ export default function SeoPageTemplate({ page }: { page: SeoPageData }) {
         <Breadcrumbs items={breadcrumbs} />
 
         <article>
-          <MarkdownRenderer content={page.content} />
+          <MarkdownRenderer content={injectLocalMarketContext(page.content, page.localMarketContext)} />
         </article>
 
         {page.relatedGuides.length > 0 && (
