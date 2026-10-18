@@ -345,10 +345,11 @@ export default function HomePage({ localeKey }: { localeKey: LocaleKey }) {
             Ready to plan your layout?
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-lg text-white/90">
-            Use our free room planner to design your kitchen
+            Draw your kitchen to scale and try each layout in 3D with the{" "}
+            <a href="https://freeroomplanner.com/kitchen-planner" className="underline underline-offset-4">free kitchen planner</a>.
           </p>
           <a
-            href="https://freeroomplanner.com?utm_source=kitchencostestimator&utm_medium=cta"
+            href="https://freeroomplanner.com/app?room=kitchen"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-block rounded-xl bg-white px-8 py-4 text-lg font-semibold text-teal-primary transition-colors duration-200 hover:bg-gray-50"
@@ -387,12 +388,12 @@ export default function HomePage({ localeKey }: { localeKey: LocaleKey }) {
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://freeroomplanner.com?utm_source=kitchencostestimator&utm_medium=footer"
+                    href="https://freeroomplanner.com/kitchen-planner"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-colors hover:text-white"
                   >
-                    Free Room Planner
+                    Free kitchen planner
                   </a>
                 </li>
               </ul>

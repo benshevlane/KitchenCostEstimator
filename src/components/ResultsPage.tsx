@@ -242,7 +242,7 @@ export default function ResultsPage({
 
       {/* CTA */}
       <a
-        href="https://freeroomplanner.com?utm_source=kitchencostestimator&utm_medium=cta"
+        href="https://freeroomplanner.com/kitchen-planner"
         target="_blank"
         rel="noopener noreferrer"
         className="mb-4 flex w-full items-center justify-center gap-2 rounded-xl px-6 py-4 text-center text-lg font-semibold text-white transition-colors duration-200"
@@ -254,7 +254,7 @@ export default function ResultsPage({
           (e.currentTarget.style.backgroundColor = "#0d9488")
         }
       >
-        Now plan your kitchen layout — free in freeroomplanner.com
+        Now plan your kitchen layout with the free kitchen planner
         <span aria-hidden="true">&rarr;</span>
       </a>
 
