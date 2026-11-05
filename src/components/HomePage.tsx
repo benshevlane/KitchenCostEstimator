@@ -396,6 +396,16 @@ export default function HomePage({ localeKey }: { localeKey: LocaleKey }) {
                     Free kitchen planner
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://3droomplanner.com/kitchen-planner"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-colors hover:text-white"
+                  >
+                    3D kitchen planner
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
